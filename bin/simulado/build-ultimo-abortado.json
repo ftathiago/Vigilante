@@ -1,0 +1,908 @@
+{
+  "_class": "hudson.model.FreeStyleProject",
+  "actions": [
+    {},
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica que os scripts somente serão validados no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "c:\\CAMNHO\\DO\\PROGRAMA"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "NOME-DO-PROGRAMA-VERSAO"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica se será validado o Encoding",
+          "name": "ValidarEncoding",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+          },
+          "description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+          "name": "IgnoreNaValidacaoDeEncoding",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica se deverá Ativar a geração do relatório de memory Leak",
+          "name": "FASTMMAtivar",
+          "type": "BooleanParameterDefinition"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.ProjectDiskUsageAction"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description": "",
+  "displayName": "NOME-DO-PROGRAMA-VERSAO-CONTINUO",
+  "displayNameOrNull": null,
+  "name": "NOME-DO-PROGRAMA-VERSAO-CONTINUO",
+  "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/",
+  "buildable": true,
+  "builds": [
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7471,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7471/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7470,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7470/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7469,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7469/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7468,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7468/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7467,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7467/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7466,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7466/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7465,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7465/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7464,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7464/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7463,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7463/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7462,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7462/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7461,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7461/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7460,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7460/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7459,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7459/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7458,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7458/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7457,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7457/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7456,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7456/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7455,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7455/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7454,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7454/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7453,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7453/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7452,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7452/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7451,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7451/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7450,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7450/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7449,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7449/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7448,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7448/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7447,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7447/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7446,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7446/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7445,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7445/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7444,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7444/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7443,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7443/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7442,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7442/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7441,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7441/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7440,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7440/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7439,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7439/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7438,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7438/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7437,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7437/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7436,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7436/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7435,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7435/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7434,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7434/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7433,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7433/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7432,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7432/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7431,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7431/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7430,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7430/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7429,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7429/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7428,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7428/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7427,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7427/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7426,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7426/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7425,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7425/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7424,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7424/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7423,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7423/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7422,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7422/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7421,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7421/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7420,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7420/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7419,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7419/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7418,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7418/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7417,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7417/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7416,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7416/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7415,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7415/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7414,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7414/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7413,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7413/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7412,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7412/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7411,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7411/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7410,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7410/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7409,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7409/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7408,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7408/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7407,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7407/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7406,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7406/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7405,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7405/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7404,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7404/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7403,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7403/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7402,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7402/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7401,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7401/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7400,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7400/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7399,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7399/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7398,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7398/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7397,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7397/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7396,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7396/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7395,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7395/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7394,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7394/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7393,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7393/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7392,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7392/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7391,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7391/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7390,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7390/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7389,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7389/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7388,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7388/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7387,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7387/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7386,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7386/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7385,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7385/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7384,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7384/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7383,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7383/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7382,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7382/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7381,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7381/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7380,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7380/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7379,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7379/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7378,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7378/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7377,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7377/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7376,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7376/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7375,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7375/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7374,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7374/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7373,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7373/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 7372,
+      "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7372/"
+    }
+  ],
+  "color": "aborted",
+  "firstBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7351,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7351/"
+  },
+  "healthReport": [
+    {
+      "description": "Estabilidade de builds: Nenhuma builds recente falhou.",
+      "iconClassName": "icon-health-80plus",
+      "iconUrl": "health-80plus.png",
+      "score": 100
+    }
+  ],
+  "inQueue": false,
+  "keepDependencies": false,
+  "lastBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7471,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7471/"
+  },
+  "lastCompletedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7471,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7471/"
+  },
+  "lastFailedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7463,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7463/"
+  },
+  "lastStableBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7470,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7470/"
+  },
+  "lastSuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7470,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7470/"
+  },
+  "lastUnstableBuild": null,
+  "lastUnsuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 7471,
+    "url": "http://jenkins/view/modulo/versao/NOME_SISTEMA-CONTINUO/7471/"
+  },
+  "nextBuildNumber": 7472,
+  "property": [
+    {
+      "_class": "jenkins.model.BuildDiscarderProperty"
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.DiskUsageProperty"
+    },
+    {
+      "_class": "com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty"
+    },
+    {
+      "_class": "se.diabol.jenkins.pipeline.PipelineProperty",
+      "descriptionTemplate": null,
+      "stageName": "BUILD",
+      "taskName": "BUILD"
+    },
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "LabelProjeto",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "DisponibilizarVersaoRede",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarTestesAutomatizados",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarDUnitDebitoTecnico",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarCoberturaTestes",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "buildResultUUID",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacotes",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacoteScripts",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ValidarPacoteScripts",
+            "value": true
+          },
+          "description": "Indica que os scripts somente serão validados no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "WORKSPACE_RTC",
+            "value": "c:\\CAMNHO\\DO\\PROGRAMA"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "Stream",
+            "value": "NOME-DO-PROGRAMA-VERSAO"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ValidarEncoding",
+            "value": true
+          },
+          "description": "Indica se será validado o Encoding",
+          "name": "ValidarEncoding",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "IgnoreNaValidacaoDeEncoding",
+            "value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+          },
+          "description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+          "name": "IgnoreNaValidacaoDeEncoding",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "FASTMMAtivar",
+            "value": true
+          },
+          "description": "Indica se deverá Ativar a geração do relatório de memory Leak",
+          "name": "FASTMMAtivar",
+          "type": "BooleanParameterDefinition"
+        }
+      ]
+    }
+  ],
+  "queueItem": null,
+  "concurrentBuild": false,
+  "downstreamProjects": [],
+  "scm": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+    "buildDefinition": "NOME-DO-PROGRAMA-VERSAO-CONTINUO",
+    "buildTypeStr": "buildDefinition",
+    "type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+  },
+  "upstreamProjects": []
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="C:\Users\ftath\source\Delphi\Rio\Vigilante\bin\VigilanteTeste.exe" total="25" errors="0" failures="3" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2019-05-28" time="0.013">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="VigilanteTeste.exe" executed="true" result="Failure" success="False" time="0.013" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="Teste" executed="true" result="Failure" success="False" time="0.059" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TConfiguracaoControllerTest" executed="True" result="Failure" success="False" time="0.012" >
+                <results>
+                  <test-case name="TestarCarregarConfiguracao" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ No assertions were made during the test ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Build" executed="true" result="Failure" success="False" time="0.021" asserts="0" >
+                <results>
+                    <test-suite type="Fixture" name="TBuildAdapterTest" executed="True" result="Failure" success="False" time="0.012" >
+                      <results>
+                        <test-case name="CarregouNome" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                          <failure>
+                            <message>
+                              <![CDATA[ Expected build-simulado is not equal to actual NOME-DA-VERSAO-COMPILACAO  ]]>
+                            </message>
+                            <stack-trace>
+                              <![CDATA[  ]]>
+                            </stack-trace>
+                          </failure>
+                        </test-case>
+                        <test-case name="CarregouBuilding" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                          <failure>
+                            <message>
+                              <![CDATA[ Condition is False when True expected. [] ]]>
+                            </message>
+                            <stack-trace>
+                              <![CDATA[  ]]>
+                            </stack-trace>
+                          </failure>
+                        </test-case>
+                      </results>
+                    </test-suite>
+                    <test-suite type="Fixture" name="TBuildBuilderTest" executed="True" result="Success" success="True" time="0.009" >
+                      <results>
+                        <test-case name="ImportaComSucesso" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      </results>
+                    </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TURLTest" executed="True" result="Success" success="True" time="0.009" >
+                <results>
+                  <test-case name="TestarURLRetiraCaracteresEspeciais" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TChangeSetAdapterJSONTest" executed="True" result="Success" success="True" time="0.008" >
+                <results>
+                  <test-case name="CarregouApenasUmChangeSet" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TCompilacaoAdapterJSONTest" executed="True" result="Success" success="True" time="0.008" >
+                <results>
+                  <test-case name="MapeouNumero" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="MapeouNome" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouSituacaoSucesso" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouSituacaoFalha" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouURL" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouChangeSet" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="JSONSemChangeSet" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="JSONChangeSetNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="JSONChangeSetVazio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="JSONChangeSetItemNull" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="JSONChangeSetItemVazio" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="JSONChangeSetItemNaoExiste" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="MapeouBuildingTrue" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouBuildingFalse" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="MapeouBuidingNull" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="Fixture" name="TChangeSetItemAdapterJSONTest" executed="True" result="Success" success="True" time="0.001" >
+                <results>
+                  <test-case name="CarregouAutor" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="CarregouDescricao" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="CarregouUmArquivo" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="CarregouDoisArquivos" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>

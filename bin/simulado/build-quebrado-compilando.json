@@ -1,0 +1,887 @@
+{
+  "_class": "hudson.model.FreeStyleProject",
+  "actions": [
+    {},
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Quando marcada Gera a pasta dbscrips na pasta interna \nda versão.",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica que os scripts SOMENTE SERÃO VALIDADOS no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "c:\\caminho\\do\\programa"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "NOME-DA-VERSAO"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica se será validado o Encoding",
+          "name": "ValidarEncoding",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+          },
+          "description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+          "name": "IgnoreNaValidacaoDeEncoding",
+          "type": "StringParameterDefinition"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.ProjectDiskUsageAction"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description": "",
+  "displayName": "NOME-DA-VERSAO-COMPILACAO",
+  "displayNameOrNull": null,
+  "name": "NOME-DA-VERSAO-COMPILACAO",
+  "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/",
+  "buildable": true,
+  "builds": [
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11697,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11697/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11696,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11696/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11695,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11695/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11694,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11694/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11693,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11693/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11692,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11692/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11691,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11691/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11690,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11690/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11689,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11688,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11688/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11687,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11687/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11686,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11686/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11685,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11685/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11684,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11684/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11683,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11683/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11682,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11682/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11681,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11681/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11680,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11680/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11679,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11679/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11678,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11678/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11677,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11677/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11676,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11676/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11675,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11675/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11674,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11674/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11673,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11673/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11672,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11672/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11671,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11671/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11670,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11670/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11669,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11669/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11668,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11668/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11667,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11667/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11666,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11666/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11665,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11665/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11664,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11664/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11663,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11663/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11662,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11662/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11661,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11661/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11660,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11660/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11659,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11659/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11658,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11658/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11657,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11657/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11656,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11656/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11655,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11655/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11654,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11654/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11653,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11653/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11652,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11652/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11651,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11651/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11650,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11650/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11649,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11649/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11648,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11648/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11647,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11647/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11646,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11646/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11645,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11645/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11644,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11644/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11643,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11643/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11642,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11642/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11641,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11641/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11640,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11640/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11639,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11639/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11638,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11638/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11637,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11637/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11636,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11636/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11635,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11635/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11634,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11634/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11633,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11633/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11632,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11632/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11631,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11631/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11630,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11630/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11629,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11629/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11628,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11628/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11627,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11627/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11626,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11626/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11625,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11625/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11624,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11624/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11623,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11623/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11622,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11622/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11621,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11621/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11620,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11620/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11619,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11619/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11618,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11618/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11617,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11617/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11616,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11616/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11615,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11615/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11614,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11614/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11613,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11613/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11612,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11612/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11611,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11611/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11610,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11610/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11609,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11609/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11608,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11608/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11607,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11607/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11606,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11606/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11605,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11605/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11604,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11604/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11603,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11603/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11602,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11602/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11601,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11601/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11600,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11600/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11599,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11599/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11598,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11598/"
+    }
+  ],
+  "color": "red_anime",
+  "firstBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11513,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11513/"
+  },
+  "healthReport": [
+    {
+      "description": "Estabilidade de builds: Nenhuma builds recente falhou.",
+      "iconClassName": "icon-health-80plus",
+      "iconUrl": "health-80plus.png",
+      "score": 100
+    }
+  ],
+  "inQueue": false,
+  "keepDependencies": false,
+  "lastBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11697,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11697/"
+  },
+  "lastCompletedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11696,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11696/"
+  },
+  "lastFailedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11696,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11696/"
+  },
+  "lastStableBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11695,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11695/"
+  },
+  "lastSuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11695,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11695/"
+  },
+  "lastUnstableBuild": null,
+  "lastUnsuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11696,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11696/"
+  },
+  "nextBuildNumber": 11698,
+  "property": [
+    {
+      "_class": "jenkins.model.BuildDiscarderProperty"
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.DiskUsageProperty"
+    },
+    {
+      "_class": "com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty"
+    },
+    {
+      "_class": "se.diabol.jenkins.pipeline.PipelineProperty",
+      "descriptionTemplate": null,
+      "stageName": "BUILD",
+      "taskName": "BUILD"
+    },
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "DisponibilizarVersaoRede",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarTestesAutomatizados",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarDUnitDebitoTecnico",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarCoberturaTestes",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacotes",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacoteScripts",
+            "value": false
+          },
+          "description": "Quando marcada Gera a pasta dbscrips na pasta interna \nda versão.",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ValidarPacoteScripts",
+            "value": true
+          },
+          "description": "Indica que os scripts SOMENTE SERÃO VALIDADOS no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "buildResultUUID",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "WORKSPACE_RTC",
+            "value": "c:\\caminho\\do\\programa"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "Stream",
+            "value": "NOME-DA-VERSAO"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "LabelProjeto",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ValidarEncoding",
+            "value": true
+          },
+          "description": "Indica se será validado o Encoding",
+          "name": "ValidarEncoding",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "IgnoreNaValidacaoDeEncoding",
+            "value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+          },
+          "description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+          "name": "IgnoreNaValidacaoDeEncoding",
+          "type": "StringParameterDefinition"
+        }
+      ]
+    }
+  ],
+  "queueItem": null,
+  "concurrentBuild": false,
+  "downstreamProjects": [],
+  "scm": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+    "buildDefinition": "NOME-DA-VERSAO-COMPILACAO",
+    "buildTypeStr": "buildDefinition",
+    "type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+  },
+  "upstreamProjects": []
+}

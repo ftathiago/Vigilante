@@ -1,0 +1,9 @@
+Vigilante.Build.Adapter.Impl.pas
+Vigilante.Build.Adapter.pas
+Vigilante.Build.Builder.Impl.pas
+Vigilante.Build.Builder.pas
+Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+Vigilante.Infra.ChangeSet.DataAdapter.pas
+Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+Vigilante.Infra.ChangeSetItem.DataAdapter.pas
+Vigilante.Infra.Compilacao.JSONDataAdapter.pas

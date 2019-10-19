@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Vigilante.Configuracao.Observer" platform="Win32">
+  <interface name="IConfiguracaoObserver" GUID="{E02F4230-5052-4C3F-BC3B-719F9CC620A2}" ancestor="IInterface" file="Vigilante.Configuracao.Observer.pas" line="9">
+    <procedure name="ConfiguracoesAlteradas" visibility="public" procflags="abstract virtual" file="Vigilante.Configuracao.Observer.pas" line="11">
+      <parameters>
+        <parameter name="AConfiguracao" type="IConfiguracao" paramflags="const" />
+      </parameters>
+    </procedure>
+  </interface>
+  <interface name="IConfiguracaoSubject" GUID="{7101ECE2-303D-40C5-83A6-52BFD3D92E3E}" ancestor="IInterface" file="Vigilante.Configuracao.Observer.pas" line="14">
+    <procedure name="Adicionar" visibility="public" procflags="abstract virtual" file="Vigilante.Configuracao.Observer.pas" line="16">
+      <parameters>
+        <parameter name="AConfiguracaoObserver" type="IConfiguracaoObserver" paramflags="const" />
+      </parameters>
+    </procedure>
+    <procedure name="Remover" visibility="public" procflags="abstract virtual" file="Vigilante.Configuracao.Observer.pas" line="17">
+      <parameters>
+        <parameter name="AConfiguracaoObserver" type="IConfiguracaoObserver" paramflags="const" />
+      </parameters>
+    </procedure>
+    <procedure name="Notificar" visibility="public" procflags="abstract virtual" file="Vigilante.Configuracao.Observer.pas" line="18">
+      <parameters>
+        <parameter name="AConfiguracao" type="IConfiguracao" paramflags="const" />
+      </parameters>
+    </procedure>
+  </interface>
+</namespace>

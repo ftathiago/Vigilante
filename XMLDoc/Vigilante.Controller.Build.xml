@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Vigilante.Controller.Build" platform="Win32">
+  <interface name="IBuildController" GUID="{7FD5B485-8C31-421C-B27E-2231B37BFE86}" ancestor="IBaseController" file="Vigilante.Controller.Build.pas" line="10">
+    <function name="GetDataSet" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Build.pas" line="12">
+      <parameters>
+        <retval type="TBuildDataSet" />
+      </parameters>
+    </function>
+    <procedure name="AdicionarOuAtualizar" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Build.pas" line="13">
+      <parameters>
+        <parameter name="ABuild" type="IBuildModel" paramflags="const" />
+      </parameters>
+    </procedure>
+    <procedure name="TransformarEmCompilacao" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Build.pas" line="14">
+      <parameters>
+        <parameter name="AID" type="TGUID" paramflags="const" />
+      </parameters>
+    </procedure>
+    <property name="DataSet" visibility="public" read="GetDataSet" type="TBuildDataSet" file="Vigilante.Controller.Build.pas" line="15" />
+  </interface>
+</namespace>

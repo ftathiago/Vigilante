@@ -1,0 +1,66 @@
+package Vigilante.Aplicacao;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  dbrtl,
+  IndySystem,
+  IndyProtocols,
+  IndyCore,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon,
+  Vigilante.Module,
+  ContainerDI;
+
+contains
+  Model.Base.Impl in 'Model\Base\Model.Base.Impl.pas',
+  Model.Base.Intf in 'Model\Base\Model.Base.Intf.pas',
+  Module.ValueObject.StringVO.Impl in 'ValueObject\Module.ValueObject.StringVO.Impl.pas',
+  Module.ValueObject.StringVO in 'ValueObject\Module.ValueObject.StringVO.pas',
+  Module.ValueObject.URL.Impl in 'ValueObject\Module.ValueObject.URL.Impl.pas',
+  Module.ValueObject.URL in 'ValueObject\Module.ValueObject.URL.pas',
+  Vigilante.Compilacao.Repositorio in 'Compilacao\Vigilante.Compilacao.Repositorio.pas',
+  Vigilante.Compilacao.Service in 'Compilacao\Services\Vigilante.Compilacao.Service.pas',
+  Vigilante.Compilacao.Service.Impl in 'Compilacao\Services\Vigilante.Compilacao.Service.Impl.pas',
+  Vigilante.Compilacao.Model in 'Compilacao\Model\Vigilante.Compilacao.Model.pas',
+  Vigilante.Compilacao.Model.Impl in 'Compilacao\Model\Vigilante.Compilacao.Model.Impl.pas',
+  Vigilante.Build.Repositorio in 'Build\Vigilante.Build.Repositorio.pas',
+  Vigilante.Build.Service in 'Build\Services\Vigilante.Build.Service.pas',
+  Vigilante.Build.Service.Impl in 'Build\Services\Vigilante.Build.Service.Impl.pas',
+  Vigilante.Build.Model in 'Build\Model\Vigilante.Build.Model.pas',
+  Vigilante.Build.Model.Impl in 'Build\Model\Vigilante.Build.Model.Impl.pas',
+  Vigilante.Build.Event in 'Build\Vigilante.Build.Event.pas',
+  Vigilante.Compilacao.Event in 'Compilacao\Vigilante.Compilacao.Event.pas',
+  Vigilante.ChangeSetItem.Model in 'Compilacao\Model\Vigilante.ChangeSetItem.Model.pas',
+  Vigilante.Aplicacao.SituacaoBuild in 'Model\Vigilante.Aplicacao.SituacaoBuild.pas',
+  Vigilante.Aplicacao.ModelBase in 'Model\Vigilante.Aplicacao.ModelBase.pas';
+
+end.

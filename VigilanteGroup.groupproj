@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{115A783B-475A-42E6-9D93-93B0906D0FEF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ContainerDI\ContainerDI.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Module\Vigilante.Module.dproj">
+            <Dependencies>ContainerDI\ContainerDI.dproj</Dependencies>
+        </Projects>
+        <Projects Include="Dominio\Vigilante.Aplicacao.dproj">
+            <Dependencies>ContainerDI\ContainerDI.dproj;Module\Vigilante.Module.dproj</Dependencies>
+        </Projects>
+        <Projects Include="Infra\Vigilante.Infra.dproj">
+            <Dependencies>ContainerDI\ContainerDI.dproj;Module\Vigilante.Module.dproj;Dominio\Vigilante.Aplicacao.dproj</Dependencies>
+        </Projects>
+        <Projects Include="AppDesktop\Vigilante.dproj">
+            <Dependencies>ContainerDI\ContainerDI.dproj;Module\Vigilante.Module.dproj;Infra\Vigilante.Infra.dproj;Dominio\Vigilante.Aplicacao.dproj</Dependencies>
+        </Projects>
+        <Projects Include="Teste\VigilanteTeste.dproj">
+            <Dependencies>Module\Vigilante.Module.dproj;ContainerDI\ContainerDI.dproj;Infra\Vigilante.Infra.dproj</Dependencies>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ContainerDI">
+        <MSBuild Projects="ContainerDI\ContainerDI.dproj"/>
+    </Target>
+    <Target Name="ContainerDI:Clean">
+        <MSBuild Projects="ContainerDI\ContainerDI.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ContainerDI:Make">
+        <MSBuild Projects="ContainerDI\ContainerDI.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Vigilante_Module" DependsOnTargets="ContainerDI">
+        <MSBuild Projects="Module\Vigilante.Module.dproj"/>
+    </Target>
+    <Target Name="Vigilante_Module:Clean" DependsOnTargets="ContainerDI:Clean">
+        <MSBuild Projects="Module\Vigilante.Module.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Vigilante_Module:Make" DependsOnTargets="ContainerDI:Make">
+        <MSBuild Projects="Module\Vigilante.Module.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Vigilante_Aplicacao" DependsOnTargets="ContainerDI;Vigilante.Module">
+        <MSBuild Projects="Dominio\Vigilante.Aplicacao.dproj"/>
+    </Target>
+    <Target Name="Vigilante_Aplicacao:Clean" DependsOnTargets="ContainerDI:Clean;Vigilante.Module:Clean">
+        <MSBuild Projects="Dominio\Vigilante.Aplicacao.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Vigilante_Aplicacao:Make" DependsOnTargets="ContainerDI:Make;Vigilante.Module:Make">
+        <MSBuild Projects="Dominio\Vigilante.Aplicacao.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Vigilante_Infra" DependsOnTargets="ContainerDI;Vigilante.Module;Vigilante.Aplicacao">
+        <MSBuild Projects="Infra\Vigilante.Infra.dproj"/>
+    </Target>
+    <Target Name="Vigilante_Infra:Clean" DependsOnTargets="ContainerDI:Clean;Vigilante.Module:Clean;Vigilante.Aplicacao:Clean">
+        <MSBuild Projects="Infra\Vigilante.Infra.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Vigilante_Infra:Make" DependsOnTargets="ContainerDI:Make;Vigilante.Module:Make;Vigilante.Aplicacao:Make">
+        <MSBuild Projects="Infra\Vigilante.Infra.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Vigilante" DependsOnTargets="ContainerDI;Vigilante.Module;Vigilante.Infra;Vigilante.Aplicacao">
+        <MSBuild Projects="AppDesktop\Vigilante.dproj"/>
+    </Target>
+    <Target Name="Vigilante:Clean" DependsOnTargets="ContainerDI:Clean;Vigilante.Module:Clean;Vigilante.Infra:Clean;Vigilante.Aplicacao:Clean">
+        <MSBuild Projects="AppDesktop\Vigilante.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Vigilante:Make" DependsOnTargets="ContainerDI:Make;Vigilante.Module:Make;Vigilante.Infra:Make;Vigilante.Aplicacao:Make">
+        <MSBuild Projects="AppDesktop\Vigilante.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VigilanteTeste" DependsOnTargets="Vigilante.Module;ContainerDI;Vigilante.Infra">
+        <MSBuild Projects="Teste\VigilanteTeste.dproj"/>
+    </Target>
+    <Target Name="VigilanteTeste:Clean" DependsOnTargets="Vigilante.Module:Clean;ContainerDI:Clean;Vigilante.Infra:Clean">
+        <MSBuild Projects="Teste\VigilanteTeste.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VigilanteTeste:Make" DependsOnTargets="Vigilante.Module:Make;ContainerDI:Make;Vigilante.Infra:Make">
+        <MSBuild Projects="Teste\VigilanteTeste.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ContainerDI;Vigilante_Module;Vigilante_Aplicacao;Vigilante_Infra;Vigilante;VigilanteTeste"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ContainerDI:Clean;Vigilante_Module:Clean;Vigilante_Aplicacao:Clean;Vigilante_Infra:Clean;Vigilante:Clean;VigilanteTeste:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ContainerDI:Make;Vigilante_Module:Make;Vigilante_Aplicacao:Make;Vigilante_Infra:Make;Vigilante:Make;VigilanteTeste:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

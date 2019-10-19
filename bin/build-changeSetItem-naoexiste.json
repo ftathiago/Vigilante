@@ -1,0 +1,40 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "artifacts": [
+    {
+      "displayPath": "build-continuo.fbp7",
+      "fileName": "build-continuo.fbp7",
+      "relativePath": "util/buildscript/build-continuo.fbp7"
+    },
+    {
+      "displayPath": "build_continuo.fbl7",
+      "fileName": "build_continuo.fbl7",
+      "relativePath": "util/buildscript/build_continuo.fbl7"
+    }
+  ],
+  "building": null,
+  "description": null,
+  "displayName": "#725",
+  "duration": 1481632,
+  "estimatedDuration": 1638508,
+  "executor": null,
+  "fullDisplayName": "BUILD- CHANGE SET SEM ITENS #725",
+  "id": "725",
+  "keepLog": false,
+  "number": 725,
+  "queueId": 3813,
+  "result": null,
+  "timestamp": 1548437080722,
+  "url": "build-changesetitem-naoexiste.json",
+  "builtOn": "COMMONBUILD_SLOT6",
+  "changeSet": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogSet",
+    "kind": "RTC"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/pinguim",
+      "fullName": "pinguim de madagascar"
+    }
+  ]
+}

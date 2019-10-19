@@ -1,0 +1,134 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Iniciado por uma mudança no SCM"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "_class": "jenkins.metrics.impl.TimeInQueueAction"
+    },
+    {},
+    {},
+    {},
+    {
+      "_class": "se.diabol.jenkins.pipeline.PipelineVersionContributor$PipelineVersionAction",
+      "causes": []
+    },
+    {
+      "_class": "hudson.model.ParametersAction",
+      "parameters": [
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "LabelProjeto",
+          "value": ""
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "GerarPacoteScripts",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "DisponibilizarVersaoRede",
+          "value": true
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "ExecutarTestesAutomatizados",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "ExecutarCoberturaTestes",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "buildResultUUID",
+          "value": ""
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "GerarPacotes",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "WORKSPACE_RTC",
+          "value": "c:\\caminho\\do\\programa"
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "Stream",
+          "value": "VERSAO-DO-SISTEMA"
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "Sistema",
+          "value": "NOME-SISTEMA"
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "WorkItem",
+          "value": "58937"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.plugins.promoted_builds_simple.PromoteAction",
+      "level": null,
+      "levelValue": 0
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.BuildDiskUsageAction"
+    },
+    {}
+  ],
+  "artifacts": [
+    {
+      "displayPath": "build-continuo.fbp7",
+      "fileName": "build-continuo.fbp7",
+      "relativePath": "util/buildscript/build-continuo.fbp7"
+    },
+    {
+      "displayPath": "build_continuo.fbl7",
+      "fileName": "build_continuo.fbl7",
+      "relativePath": "util/buildscript/build_continuo.fbl7"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#725",
+  "duration": 1481632,
+  "estimatedDuration": 1638508,
+  "executor": null,
+  "fullDisplayName": "build-simulado #725",
+  "id": "725",
+  "keepLog": false,
+  "number": 725,
+  "queueId": 3813,
+  "result": "SUCCESS",
+  "timestamp": 1548437080722,
+  "url": "http://jenkins/view/equipe/versao/job/build-simulado/725/",
+  "builtOn": "COMMONBUILD_SLOT6",
+  "changeSet": {},
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/jose.sauro",
+      "fullName": "Jose da Silva Sauro"
+    }
+  ]
+}

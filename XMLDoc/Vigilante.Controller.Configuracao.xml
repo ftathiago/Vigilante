@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Vigilante.Controller.Configuracao" platform="Win32">
+  <interface name="IConfiguracaoController" GUID="{6466A0BB-CBE7-4701-B461-802FEADE1C20}" ancestor="IConfiguracaoObserver" file="Vigilante.Controller.Configuracao.pas" line="9">
+    <procedure name="CarregarConfiguracoes" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Configuracao.pas" line="11">
+      <parameters>
+        <parameter name="AOrigem" type="IConfiguracao" paramflags="const" />
+        <parameter name="ADestino" type="IConfiguracao" paramflags="const" />
+      </parameters>
+    </procedure>
+    <procedure name="PersistirAlteracoes" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Configuracao.pas" line="12">
+      <parameters>
+        <parameter name="AConfiguracao" type="IConfiguracao" paramflags="const" />
+      </parameters>
+    </procedure>
+  </interface>
+</namespace>

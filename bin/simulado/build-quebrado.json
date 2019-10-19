@@ -1,0 +1,360 @@
+{
+  "_class": "hudson.model.FreeStyleProject",
+  "actions": [
+    {},
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": false
+          },
+          "description": "Quando marcada Gera a pasta dbscrips na pasta interna \nda versão.",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "value": true
+          },
+          "description": "Indica que os scripts SOMENTE SERÃO VALIDADOS no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "c:\\caminho\\do\\programa"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": "NOME-DA-VERSAO-DELPHI5"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.ProjectDiskUsageAction"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description": "",
+  "displayName": "NOME-DA-VERSAO-DELPHI5-CONTINUO",
+  "displayNameOrNull": null,
+  "name": "NOME-DA-VERSAO-DELPHI5-CONTINUO",
+  "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/",
+  "buildable": true,
+  "builds": [
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 1546,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1546/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 1545,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1545/"
+    },
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 1544,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1544/"
+    }
+  ],
+  "color": "red",
+  "firstBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1544,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1544/"
+  },
+  "healthReport": [
+    {
+      "description": "Estabilidade de builds: 1 das ultimas 3 builds falharam.",
+      "iconClassName": "icon-health-60to79",
+      "iconUrl": "health-60to79.png",
+      "score": 66
+    }
+  ],
+  "inQueue": false,
+  "keepDependencies": false,
+  "lastBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1546,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1546/"
+  },
+  "lastCompletedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1546,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1546/"
+  },
+  "lastFailedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1546,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1546/"
+  },
+  "lastStableBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1545,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1545/"
+  },
+  "lastSuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1545,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1545/"
+  },
+  "lastUnstableBuild": null,
+  "lastUnsuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 1546,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-DELPHI5-CONTINUO/1546/"
+  },
+  "nextBuildNumber": 1547,
+  "property": [
+    {
+      "_class": "jenkins.model.BuildDiscarderProperty"
+    },
+    {
+      "_class": "hudson.plugins.disk_usage.DiskUsageProperty"
+    },
+    {
+      "_class": "com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty"
+    },
+    {
+      "_class": "se.diabol.jenkins.pipeline.PipelineProperty",
+      "descriptionTemplate": null,
+      "stageName": "BUILD",
+      "taskName": "BUILD"
+    },
+    {
+      "_class": "hudson.model.ParametersDefinitionProperty",
+      "parameterDefinitions": [
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "DisponibilizarVersaoRede",
+            "value": true
+          },
+          "description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+          "name": "DisponibilizarVersaoRede",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarTestesAutomatizados",
+            "value": false
+          },
+          "description": "Executar testes automatizados (DUnit)",
+          "name": "ExecutarTestesAutomatizados",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarDUnitDebitoTecnico",
+            "value": false
+          },
+          "description": "Executar o DUnit dÃ©bito tÃ©cnico",
+          "name": "ExecutarDUnitDebitoTecnico",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ExecutarCoberturaTestes",
+            "value": false
+          },
+          "description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+          "name": "ExecutarCoberturaTestes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacotes",
+            "value": false
+          },
+          "description": "",
+          "name": "GerarPacotes",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "GerarPacoteScripts",
+            "value": false
+          },
+          "description": "Quando marcada Gera a pasta dbscrips na pasta interna \nda versão.",
+          "name": "GerarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.BooleanParameterValue",
+            "name": "ValidarPacoteScripts",
+            "value": true
+          },
+          "description": "Indica que os scripts SOMENTE SERÃO VALIDADOS no SAC, \nou seja não serão incluídos.<br>\nEsta flag só tem efeito quando a Flag GerarPacoteScripts \ntiver marcada.",
+          "name": "ValidarPacoteScripts",
+          "type": "BooleanParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "buildResultUUID",
+            "value": ""
+          },
+          "description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+          "name": "buildResultUUID",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "WORKSPACE_RTC",
+            "value": "c:\\caminho\\do\\programa"
+          },
+          "description": "",
+          "name": "WORKSPACE_RTC",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "Stream",
+            "value": "NOME-DA-VERSAO-DELPHI5"
+          },
+          "description": "",
+          "name": "Stream",
+          "type": "StringParameterDefinition"
+        },
+        {
+          "_class": "hudson.model.StringParameterDefinition",
+          "defaultParameterValue": {
+            "_class": "hudson.model.StringParameterValue",
+            "name": "LabelProjeto",
+            "value": ""
+          },
+          "description": "",
+          "name": "LabelProjeto",
+          "type": "StringParameterDefinition"
+        }
+      ]
+    }
+  ],
+  "queueItem": null,
+  "concurrentBuild": false,
+  "downstreamProjects": [],
+  "scm": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+    "buildDefinition": "NOME-DA-VERSAO-DELPHI5-CONTINUO",
+    "buildTypeStr": "buildDefinition",
+    "type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+  },
+  "upstreamProjects": []
+}

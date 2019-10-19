@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="ContainerDI.Base" platform="Win32">
+  <interface name="IContainerDI" GUID="{F712F258-BB13-4C68-BBFE-E73CB3B262FE}" ancestor="IInterface" file="ContainerDI.Base.pas" line="6">
+    <function name="Adicionar" visibility="public" procflags="abstract virtual" file="ContainerDI.Base.pas" line="8">
+      <parameters>
+        <parameter name="ADIConfig" type="IContainerDI" paramflags="const" />
+        <retval type="IContainerDI" />
+      </parameters>
+    </function>
+    <procedure name="Build" visibility="public" procflags="abstract virtual" file="ContainerDI.Base.pas" line="9">
+    </procedure>
+  </interface>
+</namespace>

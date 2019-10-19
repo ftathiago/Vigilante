@@ -1,0 +1,51 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "building": null,
+  "description": null,
+  "displayName": "#725",
+  "duration": 1481632,
+  "estimatedDuration": 1638508,
+  "executor": null,
+  "fullDisplayName": "BUILD BUILDING NULL #725",
+  "id": "725",
+  "keepLog": false,
+  "number": 725,
+  "queueId": 3813,
+  "result": null,
+  "timestamp": 1548437080722,
+  "url": "build_buildingNull.json",
+  "changeSet": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogSet",
+    "items": [
+      {
+        "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogChangeSetEntry",
+        "commitId": null,
+        "affectedPaths": ["/src/Classes/arquivoAlterado.pas"],
+        "author": {
+          "absoluteUrl": "http://jenkins/user/Usuario_jenkins",
+          "fullName": "Usuário do Jenkins"
+        },
+        "msg": "Descrição do change set",
+        "timestamp": 1548268243953
+      },
+      {
+        "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogChangeSetEntry",
+        "commitId": null,
+        "affectedPaths": ["/src/Classes/outro-arquivo-alterado.pas"],
+        "author": {
+          "absoluteUrl": "http://jenkins/user/Usuario_jenkins",
+          "fullName": "Usuário do Jenkins"
+        },
+        "msg": "Nome grande que o cara escreveu pra descrever o build",
+        "timestamp": 1548436904300
+      }
+    ],
+    "kind": "RTC"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/Usuario_jenkins",
+      "fullName": "Usuário do Jenkins"
+    }
+  ]
+}

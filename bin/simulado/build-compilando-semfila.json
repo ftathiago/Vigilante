@@ -1,0 +1,911 @@
+{
+	"_class": "hudson.model.FreeStyleProject",
+	"actions": [
+		{},
+		{
+			"_class": "hudson.model.ParametersDefinitionProperty",
+			"parameterDefinitions": [
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": ""
+					},
+					"description": "",
+					"name": "LabelProjeto",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "",
+					"name": "GerarPacoteScripts",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": true
+					},
+					"description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+					"name": "DisponibilizarVersaoRede",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "Executar testes automatizados (DUnit)",
+					"name": "ExecutarTestesAutomatizados",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "Executar o DUnit débito técnico",
+					"name": "ExecutarDUnitDebitoTecnico",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+					"name": "ExecutarCoberturaTestes",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": ""
+					},
+					"description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+					"name": "buildResultUUID",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "",
+					"name": "GerarPacotes",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": "c:\\caminho\\do\\programa"
+					},
+					"description": "",
+					"name": "WORKSPACE_RTC",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": "DESKTOP-NOME-SISTEMA-1.9.3-X"
+					},
+					"description": "",
+					"name": "Stream",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": "NOME-SISTEMA"
+					},
+					"description": "",
+					"name": "Sistema",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": "58937"
+					},
+					"description": "",
+					"name": "WorkItem",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"value": false
+					},
+					"description": "Indica se será validado o Encoding",
+					"name": "ValidarEncoding",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+					},
+					"description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+					"name": "IgnoreNaValidacaoDeEncoding",
+					"type": "StringParameterDefinition"
+				}
+			]
+		},
+		{
+			"_class": "hudson.plugins.disk_usage.ProjectDiskUsageAction"
+		},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{
+			"_class": "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+		}
+	],
+	"description": "",
+	"displayName": "DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO",
+	"displayNameOrNull": null,
+	"name": "DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO",
+	"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/",
+	"buildable": true,
+	"builds": [
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1171,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1171/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1170,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1170/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1169,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1169/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1168,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1168/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1167,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1167/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1166,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1166/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1165,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1165/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1164,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1164/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1163,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1163/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1162,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1162/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1161,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1161/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1160,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1160/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1159,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1159/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1158,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1158/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1157,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1157/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1156,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1156/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1155,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1155/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1154,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1154/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1153,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1153/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1152,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1152/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1151,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1151/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1150,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1150/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1149,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1149/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1148,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1148/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1147,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1147/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1146,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1146/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1145,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1145/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1144,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1144/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1143,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1143/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1142,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1142/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1141,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1141/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1140,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1140/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1139,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1139/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1138,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1138/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1137,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1137/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1136,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1136/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1135,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1135/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1134,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1134/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1133,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1133/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1132,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1132/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1131,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1131/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1130,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1130/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1129,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1129/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1128,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1128/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1127,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1127/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1126,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1126/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1125,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1125/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1124,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1124/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1123,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1123/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1122,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1122/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1121,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1121/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1120,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1120/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1119,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1119/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1118,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1118/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1117,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1117/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1116,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1116/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1115,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1115/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1114,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1114/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1113,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1113/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1112,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1112/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1111,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1111/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1110,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1110/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1109,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1109/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1108,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1108/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1107,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1107/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1106,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1106/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1105,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1105/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1104,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1104/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1103,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1103/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1102,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1102/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1101,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1101/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1100,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1100/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1099,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1099/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1098,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1098/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1097,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1097/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1096,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1096/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1095,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1095/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1094,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1094/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1093,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1093/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1092,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1092/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1091,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1091/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1090,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1090/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1089,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1089/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1087,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1087/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1086,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1086/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1085,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1085/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1084,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1084/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1083,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1083/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1082,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1082/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1081,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1081/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1080,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1080/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1079,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1079/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1078,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1078/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1077,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1077/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1076,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1076/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1075,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1075/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1074,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1074/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1073,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1073/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1072,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1072/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 1071,
+			"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1071/"
+		}
+	],
+	"color": "blue_anime",
+	"firstBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1/"
+	},
+	"healthReport": [
+		{
+			"description": "Estabilidade de builds: Nenhuma builds recente falhou.",
+			"iconClassName": "icon-health-80plus",
+			"iconUrl": "health-80plus.png",
+			"score": 100
+		}
+	],
+	"inQueue": false,
+	"keepDependencies": false,
+	"lastBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1171,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1171/"
+	},
+	"lastCompletedBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1170,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1170/"
+	},
+	"lastFailedBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1160,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1160/"
+	},
+	"lastStableBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1170,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1170/"
+	},
+	"lastSuccessfulBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1170,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1170/"
+	},
+	"lastUnstableBuild": null,
+	"lastUnsuccessfulBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 1160,
+		"url": "http://jenkins/view/equipe/versao/job/DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO/1160/"
+	},
+	"nextBuildNumber": 1172,
+	"property": [
+		{
+			"_class": "jenkins.model.BuildDiscarderProperty"
+		},
+		{
+			"_class": "hudson.plugins.disk_usage.DiskUsageProperty"
+		},
+		{
+			"_class": "hudson.plugins.disk_usage.DiskUsageProperty"
+		},
+		{
+			"_class": "com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty"
+		},
+		{
+			"_class": "se.diabol.jenkins.pipeline.PipelineProperty",
+			"descriptionTemplate": null,
+			"stageName": "BUILD",
+			"taskName": "BUILD"
+		},
+		{
+			"_class": "hudson.model.ParametersDefinitionProperty",
+			"parameterDefinitions": [
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "LabelProjeto",
+						"value": ""
+					},
+					"description": "",
+					"name": "LabelProjeto",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "GerarPacoteScripts",
+						"value": false
+					},
+					"description": "",
+					"name": "GerarPacoteScripts",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "DisponibilizarVersaoRede",
+						"value": true
+					},
+					"description": "Disponibiliza versÃ£o na unidade de rede (O:)",
+					"name": "DisponibilizarVersaoRede",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "ExecutarTestesAutomatizados",
+						"value": false
+					},
+					"description": "Executar testes automatizados (DUnit)",
+					"name": "ExecutarTestesAutomatizados",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "ExecutarDUnitDebitoTecnico",
+						"value": false
+					},
+					"description": "Executar o DUnit débito técnico",
+					"name": "ExecutarDUnitDebitoTecnico",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "ExecutarCoberturaTestes",
+						"value": false
+					},
+					"description": "Executar os testes com analise de cobertura de testes (CodeCoverage)",
+					"name": "ExecutarCoberturaTestes",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "buildResultUUID",
+						"value": ""
+					},
+					"description": "The UUID of the build result in RTC. It is supplied by builds initiated through RTC. For builds initiated through Hudson/Jenkins, no value should be supplied.",
+					"name": "buildResultUUID",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "GerarPacotes",
+						"value": false
+					},
+					"description": "",
+					"name": "GerarPacotes",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "WORKSPACE_RTC",
+						"value": "c:\\caminho\\do\\programa"
+					},
+					"description": "",
+					"name": "WORKSPACE_RTC",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "Stream",
+						"value": "DESKTOP-NOME-SISTEMA-1.9.3-X"
+					},
+					"description": "",
+					"name": "Stream",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "Sistema",
+						"value": "NOME-SISTEMA"
+					},
+					"description": "",
+					"name": "Sistema",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "WorkItem",
+						"value": "58937"
+					},
+					"description": "",
+					"name": "WorkItem",
+					"type": "StringParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.BooleanParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.BooleanParameterValue",
+						"name": "ValidarEncoding",
+						"value": false
+					},
+					"description": "Indica se será validado o Encoding",
+					"name": "ValidarEncoding",
+					"type": "BooleanParameterDefinition"
+				},
+				{
+					"_class": "hudson.model.StringParameterDefinition",
+					"defaultParameterValue": {
+						"_class": "hudson.model.StringParameterValue",
+						"name": "IgnoreNaValidacaoDeEncoding",
+						"value": "ad3SpellLanguages.pas,ad3ThesaurusLanguages.pas,XLSDefaultDataXLSX5.pas"
+					},
+					"description": "Informe o nome dos arquivo que devem ser ignorados da validação de encoding<br>\ncoloque os nomes separados por virgula sem espaço.",
+					"name": "IgnoreNaValidacaoDeEncoding",
+					"type": "StringParameterDefinition"
+				}
+			]
+		}
+	],
+	"queueItem": null,
+	"concurrentBuild": false,
+	"downstreamProjects": [],
+	"scm": {
+		"_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+		"buildDefinition": "DESKTOP-NOME-SISTEMA-1.9.3-X-CONTINUO",
+		"buildTypeStr": "buildDefinition",
+		"type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+	},
+	"upstreamProjects": []
+}

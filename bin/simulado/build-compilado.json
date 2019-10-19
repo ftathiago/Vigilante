@@ -1,0 +1,60 @@
+{
+  "_class": "hudson.model.FreeStyleProject",
+  "description": "",
+  "displayName": "BUILD ",
+  "displayNameOrNull": null,
+  "name": "NOME-DA-VERSAO-COMPILACAO",
+  "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/",
+  "buildable": true,
+  "builds": [
+    {
+      "_class": "hudson.model.FreeStyleBuild",
+      "number": 11689,
+      "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+    }
+  ],
+  "inQueue": false,
+  "keepDependencies": false,
+  "lastBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11689,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+  },
+  "lastCompletedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11689,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+  },
+  "lastFailedBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11643,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11643/"
+  },
+  "lastStableBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11689,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+  },
+  "lastSuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11689,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11689/"
+  },
+  "lastUnstableBuild": null,
+  "lastUnsuccessfulBuild": {
+    "_class": "hudson.model.FreeStyleBuild",
+    "number": 11643,
+    "url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11643/"
+  },
+  "nextBuildNumber": 11690,
+  "queueItem": null,
+  "concurrentBuild": false,
+  "downstreamProjects": [],
+  "scm": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+    "buildDefinition": "NOME-DA-VERSAO-COMPILACAO",
+    "buildTypeStr": "buildDefinition",
+    "type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+  },
+  "upstreamProjects": []
+}

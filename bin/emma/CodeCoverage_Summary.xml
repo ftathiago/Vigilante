@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<report>
+  <stats>
+    <packages value="4"/>
+    <classes value="4"/>
+    <methods value="36"/>
+    <srcfiles value="4"/>
+    <srclines value="181"/>
+    <totallines value="181"/>
+    <coveredlines value="154"/>
+    <coveredpercent value="85"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100%   (4/4)"/>
+      <coverage type="method, %" value="86%   (31/36)"/>
+      <coverage type="block, %" value="85%   (154/181)"/>
+      <coverage type="line, %" value="85%   (154/181)"/>
+      <package name="Vigilante.Infra.Compilacao.JSONDataAdapter">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (10/10)"/>
+        <coverage type="block, %" value="96%   (46/48)"/>
+        <coverage type="line, %" value="96%   (46/48)"/>
+        <srcfile name="Vigilante.Infra.Compilacao.JSONDataAdapter.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (10/10)"/>
+          <coverage type="block, %" value="96%   (46/48)"/>
+          <coverage type="line, %" value="96%   (46/48)"/>
+          <class name="TCompilacaoAdapterJSON">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (10/10)"/>
+            <coverage type="block, %" value="96%   (46/48)"/>
+            <coverage type="line, %" value="96%   (46/48)"/>
+            <method name="GetURL">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="GetNome">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="GetNumero">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="PegarChangeSetItemsJSON">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="86%   (6/7)"/>
+              <coverage type="line, %" value="86%   (6/7)"/>
+            </method>
+            <method name="GetChangesSet">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="GetBuilding">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="PegarChangeSet">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="86%   (6/7)"/>
+              <coverage type="line, %" value="86%   (6/7)"/>
+            </method>
+            <method name="CarregarChangeSet">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (9/9)"/>
+              <coverage type="line, %" value="100%   (9/9)"/>
+            </method>
+            <method name="GetSituacao">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Vigilante.Infra.ChangeSet.JSONDataAdapter">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (4/4)"/>
+        <coverage type="block, %" value="100%   (20/20)"/>
+        <coverage type="line, %" value="100%   (20/20)"/>
+        <srcfile name="Vigilante.Infra.ChangeSet.JSONDataAdapter.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (4/4)"/>
+          <coverage type="block, %" value="100%   (20/20)"/>
+          <coverage type="line, %" value="100%   (20/20)"/>
+          <class name="TChangeSetAdapterJSON">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (4/4)"/>
+            <coverage type="block, %" value="100%   (20/20)"/>
+            <coverage type="line, %" value="100%   (20/20)"/>
+            <method name="CarregarDados">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="PegarChangesSet">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Vigilante.Infra.ChangeSetItem.JSONDataAdapter">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (8/8)"/>
+        <coverage type="block, %" value="100%   (33/33)"/>
+        <coverage type="line, %" value="100%   (33/33)"/>
+        <srcfile name="Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (8/8)"/>
+          <coverage type="block, %" value="100%   (33/33)"/>
+          <coverage type="line, %" value="100%   (33/33)"/>
+          <class name="TChangeSetItemAdapterJSON">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (8/8)"/>
+            <coverage type="block, %" value="100%   (33/33)"/>
+            <coverage type="line, %" value="100%   (33/33)"/>
+            <method name="GetAutor">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="CarregarListaArquivos">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="CarregarAutor">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="GetDescricao">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="CarregarInformacoes">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="GetArquivos">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Vigilante.Build.Adapter.Impl">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="64%   (9/14)"/>
+        <coverage type="block, %" value="69%   (55/80)"/>
+        <coverage type="line, %" value="69%   (55/80)"/>
+        <srcfile name="Vigilante.Build.Adapter.Impl.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="64%   (9/14)"/>
+          <coverage type="block, %" value="69%   (55/80)"/>
+          <coverage type="line, %" value="69%   (55/80)"/>
+          <class name="TBuildAdapter">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="64%   (9/14)"/>
+            <coverage type="block, %" value="69%   (55/80)"/>
+            <coverage type="line, %" value="69%   (55/80)"/>
+            <method name="CarregarSituacao">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="50%   (10/20)"/>
+              <coverage type="line, %" value="50%   (10/20)"/>
+            </method>
+            <method name="GetUltimoBuildFalha">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="GetUltimoBuildSucesso">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="GetBuilding">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="CarregarUltimo">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="CarregarUltimoBuild">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (9/9)"/>
+              <coverage type="line, %" value="100%   (9/9)"/>
+            </method>
+            <method name="PegarNumeroDoBuild">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="GetNome">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="GetURL">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="TemValor">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="GetBuildAtual">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="CarregarBuildZero">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="GetSituacao">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

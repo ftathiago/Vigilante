@@ -1,0 +1,64 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "artifacts": [
+    {
+      "displayPath": "build-continuo.fbp7",
+      "fileName": "build-continuo.fbp7",
+      "relativePath": "util/buildscript/build-continuo.fbp7"
+    },
+    {
+      "displayPath": "build_continuo.fbl7",
+      "fileName": "build_continuo.fbl7",
+      "relativePath": "util/buildscript/build_continuo.fbl7"
+    }
+  ],
+  "building": true,
+  "description": null,
+  "displayName": "#725",
+  "duration": 1481632,
+  "estimatedDuration": 1638508,
+  "executor": null,
+  "fullDisplayName": "BUILD BUILDANDO #725",
+  "id": "725",
+  "keepLog": false,
+  "number": 725,
+  "queueId": 3813,
+  "result": null,
+  "timestamp": 1548437080722,
+  "url": "BUILD-BUILDANDO.JSON",
+  "builtOn": "COMMONBUILD_SLOT6",
+  "changeSet": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogSet",
+    "items": [
+      {
+        "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogChangeSetEntry",
+        "commitId": null,
+        "affectedPaths": ["/src/Classes/arquivo_alterado.pas"],
+        "author": {
+          "absoluteUrl": "http://jenkins/user/jose-da-silva",
+          "fullName": "Os pinguins de madagascar"
+        },
+        "msg": "dados do commit",
+        "timestamp": 1548268243953
+      },
+      {
+        "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogChangeSetEntry",
+        "commitId": null,
+        "affectedPaths": ["/src/Classes/arquivo_alterado.pas"],
+        "author": {
+          "absoluteUrl": "http://jenkins/user/jose-da-silva",
+          "fullName": "Os pinguins de madagascar"
+        },
+        "msg": "Descrição do commit",
+        "timestamp": 1548436904300
+      }
+    ],
+    "kind": "RTC"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/jose-da-silva",
+      "fullName": "Os pinguins de madagascar"
+    }
+  ]
+}

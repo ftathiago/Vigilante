@@ -1,0 +1,1516 @@
+Will track coverage for:Vigilante.Build.Adapter
+Will track coverage for:Vigilante.Build.Adapter.Impl
+Will track coverage for:Vigilante.Build.Builder
+Will track coverage for:Vigilante.Build.Builder.Impl
+Will track coverage for:Vigilante.Infra.ChangeSet.DataAdapter
+Will track coverage for:Vigilante.Infra.ChangeSet.JSONDataAdapter
+Will track coverage for:Vigilante.Infra.ChangeSetItem.DataAdapter
+Will track coverage for:Vigilante.Infra.ChangeSetItem.JSONDataAdapter
+Will track coverage for:Vigilante.Infra.Compilacao.JSONDataAdapter
+Trying to start VigilanteTeste.exe with the Parameters :
+Started successfully
+Create Process:16572 name:VigilanteTeste.exe
+Adding breakpoints for module:VigilanteTeste.exe
+Module name "TestInsight.DUnitX" did not match module from address name "Module.ValueObject.StringVO" at address:00318953
+Module name "Module.ValueObject.StringVOImpl" did not match module from address name "ValueObject.URL" at address:00318BB7
+Module name "ValueObject.URL.Impl" did not match module from address name "Teste.ValueObject.URL" at address:00318DAF
+Module name "Vigilante.Aplicacao.SituacaoBuild" did not match module from address name "Model.ChangeSetItem" at address:00319619
+Module name "Model.ChangeSetItem" did not match module from address name "Model.Base.Intf" at address:0031997F
+Module name "Model.Base.Impl" did not match module from address name "Vigilante.Compilacao.Model" at address:00319C0D
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:729
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Create in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+Creating class info for Vigilante.Infra.ChangeSetItem.JSONDataAdapter class TChangeSetItemAdapterJSON
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 30 BreakPoint at:0071FCC4
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:730
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Create in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 31 BreakPoint at:0071FCDF
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:731
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Create in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 32 BreakPoint at:0071FCF1
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:732
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Create in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 33 BreakPoint at:0071FCFA
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:733
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Create in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 34 BreakPoint at:0071FD02
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:734
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Destroy in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 37 BreakPoint at:0071FD24
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:735
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Destroy in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 38 BreakPoint at:0071FD35
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:736
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Destroy in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 39 BreakPoint at:0071FD49
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:737
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Destroy in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 40 BreakPoint at:0071FD69
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:738
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.Destroy in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 41 BreakPoint at:0071FD77
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:739
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarInformacoes in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 44 BreakPoint at:0071FD8C
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:740
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarInformacoes in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 45 BreakPoint at:0071FDA8
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:741
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarInformacoes in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 46 BreakPoint at:0071FDCE
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:742
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarInformacoes in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 47 BreakPoint at:0071FDD6
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:743
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarInformacoes in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 48 BreakPoint at:0071FDDE
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:744
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 53 BreakPoint at:0071FE14
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:745
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 54 BreakPoint at:0071FE30
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:746
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 55 BreakPoint at:0071FE4E
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:747
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 56 BreakPoint at:0071FE71
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:748
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 62 BreakPoint at:0071FED0
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:749
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 63 BreakPoint at:0071FEEC
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:750
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 64 BreakPoint at:0071FF0A
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:751
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 65 BreakPoint at:0071FF63
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:752
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 64 BreakPoint at:0071FF9A
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:753
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 65 BreakPoint at:0071FFD1
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:754
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.CarregarListaArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 66 BreakPoint at:0071FFEE
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:755
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 69 BreakPoint at:00720038
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:756
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 70 BreakPoint at:00720044
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:757
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetAutor in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 71 BreakPoint at:00720052
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:758
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetDescricao in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 74 BreakPoint at:00720058
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:759
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetDescricao in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 75 BreakPoint at:00720064
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:760
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetDescricao in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 76 BreakPoint at:00720072
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:761
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 79 BreakPoint at:00720078
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:762
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 80 BreakPoint at:00720084
+Setting BreakPoint for module: Vigilante.Infra.ChangeSetItem.JSONDataAdapter unit Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas addr:763
+Adding breakpoint for Vigilante.Infra.ChangeSetItem.JSONDataAdapter.TChangeSetItemAdapterJSON.GetArquivos in Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 81 BreakPoint at:00720092
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1083
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Create in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+Creating class info for Vigilante.Infra.ChangeSet.JSONDataAdapter class TChangeSetAdapterJSON
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 26 BreakPoint at:00722158
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1084
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Create in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 27 BreakPoint at:00722173
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1085
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Create in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 28 BreakPoint at:00722187
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1086
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Create in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 29 BreakPoint at:00722190
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1087
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Create in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 30 BreakPoint at:00722198
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1088
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Destroy in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 33 BreakPoint at:007221B8
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1089
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Destroy in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 34 BreakPoint at:007221C9
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1090
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Destroy in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 35 BreakPoint at:007221DD
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1091
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Destroy in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 36 BreakPoint at:007221E8
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1092
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.Destroy in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 37 BreakPoint at:007221F6
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1093
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 42 BreakPoint at:00722208
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1094
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 43 BreakPoint at:0072222D
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1095
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 45 BreakPoint at:00722292
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1096
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 46 BreakPoint at:007222BF
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1097
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 49 BreakPoint at:007222FA
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1098
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 43 BreakPoint at:0072231A
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1099
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 50 BreakPoint at:00722351
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1100
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.CarregarDados in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 51 BreakPoint at:0072236E
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1101
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.PegarChangesSet in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 54 BreakPoint at:007223B0
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1102
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.PegarChangesSet in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 55 BreakPoint at:007223BC
+Setting BreakPoint for module: Vigilante.Infra.ChangeSet.JSONDataAdapter unit Vigilante.Infra.ChangeSet.JSONDataAdapter.pas addr:1103
+Adding breakpoint for Vigilante.Infra.ChangeSet.JSONDataAdapter.TChangeSetAdapterJSON.PegarChangesSet in Vigilante.Infra.ChangeSet.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 56 BreakPoint at:007223CA
+Module name "Vigilante.Infra.ChangeSet.JSONDataAdapter" did not match module from address name "Vigilante.Infra.Compilacao.JSONDataAdapter" at address:003213D5
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1105
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.Create in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+Creating class info for Vigilante.Infra.Compilacao.JSONDataAdapter class TCompilacaoAdapterJSON
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 35 BreakPoint at:007225AC
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1106
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.Create in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 36 BreakPoint at:007225C7
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1107
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.Create in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 37 BreakPoint at:007225D0
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1108
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.Create in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 38 BreakPoint at:007225D8
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1109
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 45 BreakPoint at:007225F8
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1110
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 46 BreakPoint at:00722617
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1111
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 47 BreakPoint at:00722628
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1112
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 48 BreakPoint at:00722633
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1113
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 51 BreakPoint at:00722639
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1114
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 53 BreakPoint at:00722647
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1115
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 59 BreakPoint at:0072264D
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1116
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 60 BreakPoint at:0072266D
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1117
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.CarregarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 61 BreakPoint at:0072268C
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1118
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 66 BreakPoint at:007226BC
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1119
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 67 BreakPoint at:007226C5
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1120
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 68 BreakPoint at:007226DC
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1121
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 70 BreakPoint at:007226E3
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1122
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 71 BreakPoint at:007226EF
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1123
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 73 BreakPoint at:007226F6
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1124
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 74 BreakPoint at:007226FC
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1125
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 79 BreakPoint at:00722724
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1126
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 80 BreakPoint at:00722730
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1127
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 81 BreakPoint at:00722744
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1128
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 83 BreakPoint at:0072274B
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1129
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 84 BreakPoint at:00722757
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1130
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 86 BreakPoint at:0072275E
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1131
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.PegarChangeSetItemsJSON in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 87 BreakPoint at:00722764
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1132
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetBuilding in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 90 BreakPoint at:00722784
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1133
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetBuilding in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 91 BreakPoint at:0072278D
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1134
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetBuilding in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 92 BreakPoint at:00722791
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1135
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetBuilding in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 94 BreakPoint at:007227A9
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1136
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetBuilding in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 95 BreakPoint at:007227CA
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1137
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetChangesSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 98 BreakPoint at:007227F4
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1138
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetChangesSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 99 BreakPoint at:00722800
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1139
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetChangesSet in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 100 BreakPoint at:00722814
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1140
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNome in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 103 BreakPoint at:00722818
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1141
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNome in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 104 BreakPoint at:00722824
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1142
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNome in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 105 BreakPoint at:0072283C
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1143
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNumero in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 108 BreakPoint at:0072286C
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1144
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNumero in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 109 BreakPoint at:00722888
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1145
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetNumero in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 110 BreakPoint at:007228B1
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1146
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetSituacao in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 115 BreakPoint at:007228F4
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1147
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetSituacao in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 116 BreakPoint at:00722910
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1148
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetSituacao in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 117 BreakPoint at:00722928
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1149
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetSituacao in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 118 BreakPoint at:00722933
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1150
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetURL in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 121 BreakPoint at:00722974
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1151
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetURL in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 122 BreakPoint at:00722980
+Setting BreakPoint for module: Vigilante.Infra.Compilacao.JSONDataAdapter unit Vigilante.Infra.Compilacao.JSONDataAdapter.pas addr:1152
+Adding breakpoint for Vigilante.Infra.Compilacao.JSONDataAdapter.TCompilacaoAdapterJSON.GetURL in Vigilante.Infra.Compilacao.JSONDataAdapter.pas
+TBreakPoint.Activate:
+Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 123 BreakPoint at:00722998
+Module name "Vigilante.Compilacao.Model.Impl" did not match module from address name "Vigilante.Infra.Compilacao.Builder.Impl" at address:003222B8
+Module name "Vigilante.Infra.Compilacao.Builder.Impl" did not match module from address name "Teste.Build.Builder" at address:003225BE
+Module name "Teste.Build.JSONData" did not match module from address name "Teste.Compilacao.Adapter" at address:00333CB3
+Module name "Teste.ChangeSet.JSONData" did not match module from address name "Teste.ChangeSet.Adapter" at address:003363AB
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1433
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+Creating class info for Vigilante.Build.Adapter.Impl class TBuildAdapter
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 45 BreakPoint at:00738628
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1434
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 46 BreakPoint at:00738643
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1435
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 47 BreakPoint at:0073864C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1436
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 48 BreakPoint at:00738654
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1437
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 49 BreakPoint at:0073865C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1438
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.Create in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 50 BreakPoint at:00738664
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1439
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 56 BreakPoint at:00738684
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1440
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 57 BreakPoint at:0073868D
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1441
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 58 BreakPoint at:007386AB
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1442
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 59 BreakPoint at:007386DB
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1443
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 62 BreakPoint at:007386EA
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1444
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarBuildZero in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 63 BreakPoint at:007386FB
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1445
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 66 BreakPoint at:0073871C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1446
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 67 BreakPoint at:00738723
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1447
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 68 BreakPoint at:00738736
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1448
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 69 BreakPoint at:00738749
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1449
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 70 BreakPoint at:0073875C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1450
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 71 BreakPoint at:0073876F
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1451
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 72 BreakPoint at:00738782
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1452
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 73 BreakPoint at:00738795
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1453
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 74 BreakPoint at:007387A8
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1454
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 80 BreakPoint at:007388F4
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1455
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 81 BreakPoint at:00738903
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1456
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 82 BreakPoint at:0073890C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1457
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 83 BreakPoint at:0073891D
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1458
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 85 BreakPoint at:0073892C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1459
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarUltimo in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 86 BreakPoint at:00738949
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1460
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 89 BreakPoint at:00738950
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1461
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 90 BreakPoint at:0073896F
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1462
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 92 BreakPoint at:00738973
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1463
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 95 BreakPoint at:00738979
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1464
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 98 BreakPoint at:00738995
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1465
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.TemValor in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 99 BreakPoint at:00738999
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1466
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 108 BreakPoint at:007389D8
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1467
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 109 BreakPoint at:007389E1
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1468
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 110 BreakPoint at:007389F1
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1469
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 112 BreakPoint at:00738A01
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1470
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 115 BreakPoint at:00738A20
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1471
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 118 BreakPoint at:00738A3F
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1472
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 121 BreakPoint at:00738A6A
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1473
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 123 BreakPoint at:00738A70
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1474
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 124 BreakPoint at:00738A77
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1475
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 127 BreakPoint at:00738A79
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1476
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 129 BreakPoint at:00738A7F
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1477
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 130 BreakPoint at:00738A86
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1478
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 133 BreakPoint at:00738A88
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1479
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 135 BreakPoint at:00738A8E
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1480
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 136 BreakPoint at:00738A95
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1481
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 139 BreakPoint at:00738A97
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1482
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 141 BreakPoint at:00738A9D
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1483
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 142 BreakPoint at:00738AA4
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1484
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 146 BreakPoint at:00738AA6
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1485
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.CarregarSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 147 BreakPoint at:00738AAD
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1486
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 152 BreakPoint at:00738AB4
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1487
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 153 BreakPoint at:00738AC0
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1488
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 155 BreakPoint at:00738AC7
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1489
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 156 BreakPoint at:00738AD7
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1490
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 158 BreakPoint at:00738AE6
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1491
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.PegarNumeroDoBuild in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 159 BreakPoint at:00738AF1
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1492
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuildAtual in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 162 BreakPoint at:00738B14
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1493
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuildAtual in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 163 BreakPoint at:00738B1D
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1494
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuildAtual in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 164 BreakPoint at:00738B26
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1495
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuilding in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 167 BreakPoint at:00738B30
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1496
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuilding in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 168 BreakPoint at:00738B39
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1497
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetBuilding in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 169 BreakPoint at:00738B44
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1498
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetNome in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 172 BreakPoint at:00738B4C
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1499
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetNome in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 173 BreakPoint at:00738B58
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1500
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetNome in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 174 BreakPoint at:00738B70
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1501
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 177 BreakPoint at:00738B98
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1502
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 178 BreakPoint at:00738BA1
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1503
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetSituacao in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 179 BreakPoint at:00738BAA
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1504
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildFalha in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 182 BreakPoint at:00738BB4
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1505
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildFalha in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 183 BreakPoint at:00738BBD
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1506
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildFalha in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 184 BreakPoint at:00738BC6
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1507
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildSucesso in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 187 BreakPoint at:00738BD0
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1508
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildSucesso in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 188 BreakPoint at:00738BD9
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1509
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetUltimoBuildSucesso in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 189 BreakPoint at:00738BE2
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1510
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetURL in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 192 BreakPoint at:00738BEC
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1511
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetURL in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 193 BreakPoint at:00738BF8
+Setting BreakPoint for module: Vigilante.Build.Adapter.Impl unit Vigilante.Build.Adapter.Impl.pas addr:1512
+Adding breakpoint for Vigilante.Build.Adapter.Impl.TBuildAdapter.GetURL in Vigilante.Build.Adapter.Impl.pas
+TBreakPoint.Activate:
+Activate Vigilante.Build.Adapter.Impl.pas line 194 BreakPoint at:00738C10
+Module name "Vigilante.Build.Adapter.Impl" did not match module from address name "Teste.Build.Adapter" at address:00337CEC
+Module Model.Base.Impl skipped
+Module Model.ChangeSetItem skipped
+Module Vigilante.Aplicacao.SituacaoBuild skipped
+Module Module.ValueObject.StringVOImpl skipped
+Module System.Generics.Collections skipped
+Module System.Generics.Defaults skipped
+Module System.JSON skipped
+Module System.Rtti skipped
+Module Teste.Build.Adapter skipped
+Module Teste.Build.Builder skipped
+Module Teste.Build.JSONData skipped
+Module Teste.ChangeSet.Adapter skipped
+Module Teste.ChangeSet.JSONData skipped
+Module Teste.ChangeSetItem.Adapter skipped
+Module Teste.Compilacao.Adapter skipped
+Module Teste.ValueObject.URL skipped
+Module TestInsight.Client skipped
+Module TestInsight.DUnitX skipped
+Module ValueObject.URL.Impl skipped
+Module Vigilante.Infra.Compilacao.Builder.Impl skipped
+Module Vigilante.Compilacao.Model.Impl skipped
+Module VigilanteTeste skipped
+Done adding  BreakPoints
+ReadProcessMemory error: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi conclu�da
+GetModuleFileNameEx error: Identificador inv�lido
+Loading DLL at addr:77180000 (C:\WINDOWS\SysWOW64\KERNEL32.DLL) size :409600
+Done adding  BreakPoints
+Loading DLL at addr:75590000 (C:\WINDOWS\SysWOW64\KERNELBASE.dll) size :1844224
+Done adding  BreakPoints
+Create thread:728
+Loading DLL at addr:75FB0000 (C:\WINDOWS\SysWOW64\ole32.dll) size :826368
+Done adding  BreakPoints
+Loading DLL at addr:760B0000 (C:\WINDOWS\SysWOW64\combase.dll) size :2298880
+Done adding  BreakPoints
+Loading DLL at addr:51DD0000 (C:\WINDOWS\SysWOW64\SHFolder.dll) size :3584
+Done adding  BreakPoints
+Loading DLL at addr:75B80000 (C:\WINDOWS\SysWOW64\ucrtbase.dll) size :1104896
+Done adding  BreakPoints
+Loading DLL at addr:759B0000 (C:\WINDOWS\SysWOW64\msvcrt.dll) size :723456
+Done adding  BreakPoints
+Create thread:5668
+Loading DLL at addr:77860000 (C:\WINDOWS\SysWOW64\RPCRT4.dll) size :695296
+Done adding  BreakPoints
+Create thread:3900
+Loading DLL at addr:76A30000 (C:\WINDOWS\SysWOW64\SHELL32.dll) size :5267968
+Done adding  BreakPoints
+Loading DLL at addr:75570000 (C:\WINDOWS\SysWOW64\SspiCli.dll) size :98816
+Done adding  BreakPoints
+Loading DLL at addr:76FB0000 (C:\WINDOWS\SysWOW64\cfgmgr32.dll) size :206336
+Done adding  BreakPoints
+Loading DLL at addr:75560000 (C:\WINDOWS\SysWOW64\CRYPTBASE.dll) size :16384
+Done adding  BreakPoints
+Loading DLL at addr:758F0000 (C:\WINDOWS\SysWOW64\bcryptPrimitives.dll) size :359936
+Done adding  BreakPoints
+Loading DLL at addr:76550000 (C:\WINDOWS\SysWOW64\shcore.dll) size :478208
+Done adding  BreakPoints
+Loading DLL at addr:77A20000 (C:\WINDOWS\SysWOW64\sechost.dll) size :420352
+Done adding  BreakPoints
+Loading DLL at addr:77260000 (C:\WINDOWS\SysWOW64\windows.storage.dll) size :5549056
+Done adding  BreakPoints
+Loading DLL at addr:77070000 (C:\WINDOWS\SysWOW64\advapi32.dll) size :421888
+Done adding  BreakPoints
+Loading DLL at addr:75950000 (C:\WINDOWS\SysWOW64\GDI32.dll) size :104448
+Done adding  BreakPoints
+Loading DLL at addr:76330000 (C:\WINDOWS\SysWOW64\msvcp_win.dll) size :454144
+Done adding  BreakPoints
+Loading DLL at addr:75990000 (C:\WINDOWS\SysWOW64\win32u.dll) size :73728
+Done adding  BreakPoints
+Loading DLL at addr:77AB0000 (C:\WINDOWS\SysWOW64\profapi.dll) size :64000
+Done adding  BreakPoints
+Loading DLL at addr:75790000 (C:\WINDOWS\SysWOW64\gdi32full.dll) size :1268736
+Done adding  BreakPoints
+Loading DLL at addr:77BE0000 (C:\WINDOWS\SysWOW64\powrprof.dll) size :77824
+Done adding  BreakPoints
+Loading DLL at addr:77CD0000 (C:\WINDOWS\SysWOW64\UMPDC.dll) size :30720
+Done adding  BreakPoints
+Loading DLL at addr:763B0000 (C:\WINDOWS\SysWOW64\USER32.dll) size :653824
+Done adding  BreakPoints
+Loading DLL at addr:77010000 (C:\WINDOWS\SysWOW64\shlwapi.dll) size :231936
+Done adding  BreakPoints
+Loading DLL at addr:77920000 (C:\WINDOWS\SysWOW64\oleaut32.dll) size :539648
+Done adding  BreakPoints
+Loading DLL at addr:77AA0000 (C:\WINDOWS\SysWOW64\kernel.appcore.dll) size :26112
+Done adding  BreakPoints
+Loading DLL at addr:77C30000 (C:\WINDOWS\SysWOW64\cryptsp.dll) size :49664
+Done adding  BreakPoints
+Loading DLL at addr:75540000 (C:\WINDOWS\SysWOW64\version.dll) size :10752
+Done adding  BreakPoints
+Loading DLL at addr:75350000 (C:\WINDOWS\SysWOW64\netapi32.dll) size :51712
+Done adding  BreakPoints
+Loading DLL at addr:75290000 (C:\WINDOWS\SysWOW64\NETUTILS.DLL) size :20992
+Done adding  BreakPoints
+Couldn't find BreakPoint for exception address:77E4E962
+Loading DLL at addr:77830000 (C:\WINDOWS\SysWOW64\IMM32.DLL) size :101376
+Done adding  BreakPoints
+Loading DLL at addr:46480000 (C:\WINDOWS\SysWOW64\security.dll) size :0
+Done adding  BreakPoints
+Loading DLL at addr:6D9F0000 (C:\WINDOWS\SysWOW64\SECUR32.DLL) size :15360
+Done adding  BreakPoints
+Loading DLL at addr:75A70000 (C:\WINDOWS\SysWOW64\WS2_32.DLL) size :270336
+Done adding  BreakPoints
+Loading DLL at addr:72C90000 (C:\WINDOWS\SysWOW64\Fwpuclnt.dll) size :287232
+Done adding  BreakPoints
+Loading DLL at addr:75D00000 (C:\WINDOWS\SysWOW64\bcrypt.dll) size :74752
+Done adding  BreakPoints
+Loading DLL at addr:6BF10000 (C:\WINDOWS\SysWOW64\IdnDL.dll) size :3584
+Done adding  BreakPoints
+Loading DLL at addr:75FA0000 (C:\WINDOWS\SysWOW64\Normaliz.dll) size :512
+Done adding  BreakPoints
+Loading DLL at addr:741E0000 (C:\WINDOWS\SysWOW64\iphlpapi.dll) size :172032
+Done adding  BreakPoints
+Loading DLL at addr:74290000 (C:\WINDOWS\SysWOW64\mswsock.dll) size :285696
+Done adding  BreakPoints
+Loading DLL at addr:72CF0000 (C:\WINDOWS\SysWOW64\DNSAPI.dll) size :505344
+Done adding  BreakPoints
+Loading DLL at addr:75980000 (C:\WINDOWS\SysWOW64\NSI.dll) size :7168
+Done adding  BreakPoints
+Loading DLL at addr:72C80000 (C:\Windows\SysWOW64\rasadhlp.dll) size :6656
+Done adding  BreakPoints
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 45
+Clearing BreakPoint at 00738628
+De-Activate Vigilante.Build.Adapter.Impl.pas line 45 BreakPoint at:00738628
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 46
+Clearing BreakPoint at 00738643
+De-Activate Vigilante.Build.Adapter.Impl.pas line 46 BreakPoint at:00738643
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 47
+Clearing BreakPoint at 0073864C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 47 BreakPoint at:0073864C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 56
+Clearing BreakPoint at 00738684
+De-Activate Vigilante.Build.Adapter.Impl.pas line 56 BreakPoint at:00738684
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 57
+Clearing BreakPoint at 0073868D
+De-Activate Vigilante.Build.Adapter.Impl.pas line 57 BreakPoint at:0073868D
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 58
+Clearing BreakPoint at 007386AB
+De-Activate Vigilante.Build.Adapter.Impl.pas line 58 BreakPoint at:007386AB
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 59
+Clearing BreakPoint at 007386DB
+De-Activate Vigilante.Build.Adapter.Impl.pas line 59 BreakPoint at:007386DB
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 89
+Clearing BreakPoint at 00738950
+De-Activate Vigilante.Build.Adapter.Impl.pas line 89 BreakPoint at:00738950
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 90
+Clearing BreakPoint at 0073896F
+De-Activate Vigilante.Build.Adapter.Impl.pas line 90 BreakPoint at:0073896F
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 92
+Clearing BreakPoint at 00738973
+De-Activate Vigilante.Build.Adapter.Impl.pas line 92 BreakPoint at:00738973
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 95
+Clearing BreakPoint at 00738979
+De-Activate Vigilante.Build.Adapter.Impl.pas line 95 BreakPoint at:00738979
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 98
+Clearing BreakPoint at 00738995
+De-Activate Vigilante.Build.Adapter.Impl.pas line 98 BreakPoint at:00738995
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 99
+Clearing BreakPoint at 00738999
+De-Activate Vigilante.Build.Adapter.Impl.pas line 99 BreakPoint at:00738999
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 62
+Clearing BreakPoint at 007386EA
+De-Activate Vigilante.Build.Adapter.Impl.pas line 62 BreakPoint at:007386EA
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 152
+Clearing BreakPoint at 00738AB4
+De-Activate Vigilante.Build.Adapter.Impl.pas line 152 BreakPoint at:00738AB4
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 153
+Clearing BreakPoint at 00738AC0
+De-Activate Vigilante.Build.Adapter.Impl.pas line 153 BreakPoint at:00738AC0
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 155
+Clearing BreakPoint at 00738AC7
+De-Activate Vigilante.Build.Adapter.Impl.pas line 155 BreakPoint at:00738AC7
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 156
+Clearing BreakPoint at 00738AD7
+De-Activate Vigilante.Build.Adapter.Impl.pas line 156 BreakPoint at:00738AD7
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 158
+Clearing BreakPoint at 00738AE6
+De-Activate Vigilante.Build.Adapter.Impl.pas line 158 BreakPoint at:00738AE6
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 159
+Clearing BreakPoint at 00738AF1
+De-Activate Vigilante.Build.Adapter.Impl.pas line 159 BreakPoint at:00738AF1
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 63
+Clearing BreakPoint at 007386FB
+De-Activate Vigilante.Build.Adapter.Impl.pas line 63 BreakPoint at:007386FB
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 48
+Clearing BreakPoint at 00738654
+De-Activate Vigilante.Build.Adapter.Impl.pas line 48 BreakPoint at:00738654
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 66
+Clearing BreakPoint at 0073871C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 66 BreakPoint at:0073871C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 67
+Clearing BreakPoint at 00738723
+De-Activate Vigilante.Build.Adapter.Impl.pas line 67 BreakPoint at:00738723
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 80
+Clearing BreakPoint at 007388F4
+De-Activate Vigilante.Build.Adapter.Impl.pas line 80 BreakPoint at:007388F4
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 81
+Clearing BreakPoint at 00738903
+De-Activate Vigilante.Build.Adapter.Impl.pas line 81 BreakPoint at:00738903
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 82
+Clearing BreakPoint at 0073890C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 82 BreakPoint at:0073890C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 83
+Clearing BreakPoint at 0073891D
+De-Activate Vigilante.Build.Adapter.Impl.pas line 83 BreakPoint at:0073891D
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 85
+Clearing BreakPoint at 0073892C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 85 BreakPoint at:0073892C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 86
+Clearing BreakPoint at 00738949
+De-Activate Vigilante.Build.Adapter.Impl.pas line 86 BreakPoint at:00738949
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 68
+Clearing BreakPoint at 00738736
+De-Activate Vigilante.Build.Adapter.Impl.pas line 68 BreakPoint at:00738736
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 69
+Clearing BreakPoint at 00738749
+De-Activate Vigilante.Build.Adapter.Impl.pas line 69 BreakPoint at:00738749
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 70
+Clearing BreakPoint at 0073875C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 70 BreakPoint at:0073875C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 71
+Clearing BreakPoint at 0073876F
+De-Activate Vigilante.Build.Adapter.Impl.pas line 71 BreakPoint at:0073876F
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 72
+Clearing BreakPoint at 00738782
+De-Activate Vigilante.Build.Adapter.Impl.pas line 72 BreakPoint at:00738782
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 73
+Clearing BreakPoint at 00738795
+De-Activate Vigilante.Build.Adapter.Impl.pas line 73 BreakPoint at:00738795
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 74
+Clearing BreakPoint at 007387A8
+De-Activate Vigilante.Build.Adapter.Impl.pas line 74 BreakPoint at:007387A8
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 49
+Clearing BreakPoint at 0073865C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 49 BreakPoint at:0073865C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 108
+Clearing BreakPoint at 007389D8
+De-Activate Vigilante.Build.Adapter.Impl.pas line 108 BreakPoint at:007389D8
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 109
+Clearing BreakPoint at 007389E1
+De-Activate Vigilante.Build.Adapter.Impl.pas line 109 BreakPoint at:007389E1
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 110
+Clearing BreakPoint at 007389F1
+De-Activate Vigilante.Build.Adapter.Impl.pas line 110 BreakPoint at:007389F1
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 112
+Clearing BreakPoint at 00738A01
+De-Activate Vigilante.Build.Adapter.Impl.pas line 112 BreakPoint at:00738A01
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 115
+Clearing BreakPoint at 00738A20
+De-Activate Vigilante.Build.Adapter.Impl.pas line 115 BreakPoint at:00738A20
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 118
+Clearing BreakPoint at 00738A3F
+De-Activate Vigilante.Build.Adapter.Impl.pas line 118 BreakPoint at:00738A3F
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 121
+Clearing BreakPoint at 00738A6A
+De-Activate Vigilante.Build.Adapter.Impl.pas line 121 BreakPoint at:00738A6A
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 123
+Clearing BreakPoint at 00738A70
+De-Activate Vigilante.Build.Adapter.Impl.pas line 123 BreakPoint at:00738A70
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 124
+Clearing BreakPoint at 00738A77
+De-Activate Vigilante.Build.Adapter.Impl.pas line 124 BreakPoint at:00738A77
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 147
+Clearing BreakPoint at 00738AAD
+De-Activate Vigilante.Build.Adapter.Impl.pas line 147 BreakPoint at:00738AAD
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 50
+Clearing BreakPoint at 00738664
+De-Activate Vigilante.Build.Adapter.Impl.pas line 50 BreakPoint at:00738664
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 172
+Clearing BreakPoint at 00738B4C
+De-Activate Vigilante.Build.Adapter.Impl.pas line 172 BreakPoint at:00738B4C
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 173
+Clearing BreakPoint at 00738B58
+De-Activate Vigilante.Build.Adapter.Impl.pas line 173 BreakPoint at:00738B58
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 174
+Clearing BreakPoint at 00738B70
+De-Activate Vigilante.Build.Adapter.Impl.pas line 174 BreakPoint at:00738B70
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 167
+Clearing BreakPoint at 00738B30
+De-Activate Vigilante.Build.Adapter.Impl.pas line 167 BreakPoint at:00738B30
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 168
+Clearing BreakPoint at 00738B39
+De-Activate Vigilante.Build.Adapter.Impl.pas line 168 BreakPoint at:00738B39
+Adding coverage:Vigilante.Build.Adapter.Impl.pas (Vigilante.Build.Adapter.Impl) 169
+Clearing BreakPoint at 00738B44
+De-Activate Vigilante.Build.Adapter.Impl.pas line 169 BreakPoint at:00738B44
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 35
+Clearing BreakPoint at 007225AC
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 35 BreakPoint at:007225AC
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 36
+Clearing BreakPoint at 007225C7
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 36 BreakPoint at:007225C7
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 37
+Clearing BreakPoint at 007225D0
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 37 BreakPoint at:007225D0
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 45
+Clearing BreakPoint at 007225F8
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 45 BreakPoint at:007225F8
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 46
+Clearing BreakPoint at 00722617
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 46 BreakPoint at:00722617
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 47
+Clearing BreakPoint at 00722628
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 47 BreakPoint at:00722628
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 66
+Clearing BreakPoint at 007226BC
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 66 BreakPoint at:007226BC
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 67
+Clearing BreakPoint at 007226C5
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 67 BreakPoint at:007226C5
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 70
+Clearing BreakPoint at 007226E3
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 70 BreakPoint at:007226E3
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 73
+Clearing BreakPoint at 007226F6
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 73 BreakPoint at:007226F6
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 74
+Clearing BreakPoint at 007226FC
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 74 BreakPoint at:007226FC
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 48
+Clearing BreakPoint at 00722633
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 48 BreakPoint at:00722633
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 51
+Clearing BreakPoint at 00722639
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 51 BreakPoint at:00722639
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 79
+Clearing BreakPoint at 00722724
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 79 BreakPoint at:00722724
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 80
+Clearing BreakPoint at 00722730
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 80 BreakPoint at:00722730
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 83
+Clearing BreakPoint at 0072274B
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 83 BreakPoint at:0072274B
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 86
+Clearing BreakPoint at 0072275E
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 86 BreakPoint at:0072275E
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 87
+Clearing BreakPoint at 00722764
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 87 BreakPoint at:00722764
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 53
+Clearing BreakPoint at 00722647
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 53 BreakPoint at:00722647
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 59
+Clearing BreakPoint at 0072264D
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 59 BreakPoint at:0072264D
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 26
+Clearing BreakPoint at 00722158
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 26 BreakPoint at:00722158
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 27
+Clearing BreakPoint at 00722173
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 27 BreakPoint at:00722173
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 28
+Clearing BreakPoint at 00722187
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 28 BreakPoint at:00722187
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 29
+Clearing BreakPoint at 00722190
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 29 BreakPoint at:00722190
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 42
+Clearing BreakPoint at 00722208
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 42 BreakPoint at:00722208
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 43
+Clearing BreakPoint at 0072222D
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 43 BreakPoint at:0072222D
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 43
+Clearing BreakPoint at 0072231A
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 43 BreakPoint at:0072231A
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 45
+Clearing BreakPoint at 00722292
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 45 BreakPoint at:00722292
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 30
+Clearing BreakPoint at 0071FCC4
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 30 BreakPoint at:0071FCC4
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 31
+Clearing BreakPoint at 0071FCDF
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 31 BreakPoint at:0071FCDF
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 32
+Clearing BreakPoint at 0071FCF1
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 32 BreakPoint at:0071FCF1
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 33
+Clearing BreakPoint at 0071FCFA
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 33 BreakPoint at:0071FCFA
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 44
+Clearing BreakPoint at 0071FD8C
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 44 BreakPoint at:0071FD8C
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 45
+Clearing BreakPoint at 0071FDA8
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 45 BreakPoint at:0071FDA8
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 46
+Clearing BreakPoint at 0071FDCE
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 46 BreakPoint at:0071FDCE
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 53
+Clearing BreakPoint at 0071FE14
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 53 BreakPoint at:0071FE14
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 54
+Clearing BreakPoint at 0071FE30
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 54 BreakPoint at:0071FE30
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 55
+Clearing BreakPoint at 0071FE4E
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 55 BreakPoint at:0071FE4E
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 56
+Clearing BreakPoint at 0071FE71
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 56 BreakPoint at:0071FE71
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 47
+Clearing BreakPoint at 0071FDD6
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 47 BreakPoint at:0071FDD6
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 62
+Clearing BreakPoint at 0071FED0
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 62 BreakPoint at:0071FED0
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 63
+Clearing BreakPoint at 0071FEEC
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 63 BreakPoint at:0071FEEC
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 64
+Clearing BreakPoint at 0071FF0A
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 64 BreakPoint at:0071FF0A
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 64
+Clearing BreakPoint at 0071FF9A
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 64 BreakPoint at:0071FF9A
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 65
+Clearing BreakPoint at 0071FF63
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 65 BreakPoint at:0071FF63
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 65
+Clearing BreakPoint at 0071FFD1
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 65 BreakPoint at:0071FFD1
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 66
+Clearing BreakPoint at 0071FFEE
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 66 BreakPoint at:0071FFEE
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 48
+Clearing BreakPoint at 0071FDDE
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 48 BreakPoint at:0071FDDE
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 34
+Clearing BreakPoint at 0071FD02
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 34 BreakPoint at:0071FD02
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 46
+Clearing BreakPoint at 007222BF
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 46 BreakPoint at:007222BF
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 74
+Clearing BreakPoint at 00720058
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 74 BreakPoint at:00720058
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 75
+Clearing BreakPoint at 00720064
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 75 BreakPoint at:00720064
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 76
+Clearing BreakPoint at 00720072
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 76 BreakPoint at:00720072
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 79
+Clearing BreakPoint at 00720078
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 79 BreakPoint at:00720078
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 80
+Clearing BreakPoint at 00720084
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 80 BreakPoint at:00720084
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 81
+Clearing BreakPoint at 00720092
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 81 BreakPoint at:00720092
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 69
+Clearing BreakPoint at 00720038
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 69 BreakPoint at:00720038
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 70
+Clearing BreakPoint at 00720044
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 70 BreakPoint at:00720044
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 71
+Clearing BreakPoint at 00720052
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 71 BreakPoint at:00720052
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 49
+Clearing BreakPoint at 007222FA
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 49 BreakPoint at:007222FA
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 37
+Clearing BreakPoint at 0071FD24
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 37 BreakPoint at:0071FD24
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 38
+Clearing BreakPoint at 0071FD35
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 38 BreakPoint at:0071FD35
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 39
+Clearing BreakPoint at 0071FD49
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 39 BreakPoint at:0071FD49
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 40
+Clearing BreakPoint at 0071FD69
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 40 BreakPoint at:0071FD69
+Adding coverage:Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas (Vigilante.Infra.ChangeSetItem.JSONDataAdapter) 41
+Clearing BreakPoint at 0071FD77
+De-Activate Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas line 41 BreakPoint at:0071FD77
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 50
+Clearing BreakPoint at 00722351
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 50 BreakPoint at:00722351
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 51
+Clearing BreakPoint at 0072236E
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 51 BreakPoint at:0072236E
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 30
+Clearing BreakPoint at 00722198
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 30 BreakPoint at:00722198
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 60
+Clearing BreakPoint at 0072266D
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 60 BreakPoint at:0072266D
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 54
+Clearing BreakPoint at 007223B0
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 54 BreakPoint at:007223B0
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 55
+Clearing BreakPoint at 007223BC
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 55 BreakPoint at:007223BC
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 56
+Clearing BreakPoint at 007223CA
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 56 BreakPoint at:007223CA
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 61
+Clearing BreakPoint at 0072268C
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 61 BreakPoint at:0072268C
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 33
+Clearing BreakPoint at 007221B8
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 33 BreakPoint at:007221B8
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 34
+Clearing BreakPoint at 007221C9
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 34 BreakPoint at:007221C9
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 35
+Clearing BreakPoint at 007221DD
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 35 BreakPoint at:007221DD
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 36
+Clearing BreakPoint at 007221E8
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 36 BreakPoint at:007221E8
+Adding coverage:Vigilante.Infra.ChangeSet.JSONDataAdapter.pas (Vigilante.Infra.ChangeSet.JSONDataAdapter) 37
+Clearing BreakPoint at 007221F6
+De-Activate Vigilante.Infra.ChangeSet.JSONDataAdapter.pas line 37 BreakPoint at:007221F6
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 38
+Clearing BreakPoint at 007225D8
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 38 BreakPoint at:007225D8
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 103
+Clearing BreakPoint at 00722818
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 103 BreakPoint at:00722818
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 104
+Clearing BreakPoint at 00722824
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 104 BreakPoint at:00722824
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 105
+Clearing BreakPoint at 0072283C
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 105 BreakPoint at:0072283C
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 121
+Clearing BreakPoint at 00722974
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 121 BreakPoint at:00722974
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 122
+Clearing BreakPoint at 00722980
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 122 BreakPoint at:00722980
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 123
+Clearing BreakPoint at 00722998
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 123 BreakPoint at:00722998
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 115
+Clearing BreakPoint at 007228F4
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 115 BreakPoint at:007228F4
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 116
+Clearing BreakPoint at 00722910
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 116 BreakPoint at:00722910
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 117
+Clearing BreakPoint at 00722928
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 117 BreakPoint at:00722928
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 118
+Clearing BreakPoint at 00722933
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 118 BreakPoint at:00722933
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 90
+Clearing BreakPoint at 00722784
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 90 BreakPoint at:00722784
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 91
+Clearing BreakPoint at 0072278D
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 91 BreakPoint at:0072278D
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 92
+Clearing BreakPoint at 00722791
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 92 BreakPoint at:00722791
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 94
+Clearing BreakPoint at 007227A9
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 94 BreakPoint at:007227A9
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 95
+Clearing BreakPoint at 007227CA
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 95 BreakPoint at:007227CA
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 98
+Clearing BreakPoint at 007227F4
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 98 BreakPoint at:007227F4
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 99
+Clearing BreakPoint at 00722800
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 99 BreakPoint at:00722800
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 100
+Clearing BreakPoint at 00722814
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 100 BreakPoint at:00722814
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 108
+Clearing BreakPoint at 0072286C
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 108 BreakPoint at:0072286C
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 109
+Clearing BreakPoint at 00722888
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 109 BreakPoint at:00722888
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 110
+Clearing BreakPoint at 007228B1
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 110 BreakPoint at:007228B1
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 68
+Clearing BreakPoint at 007226DC
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 68 BreakPoint at:007226DC
+EXCEPTION CODE:0EEDFADE
+Address:756A33D2
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : VigilanteTeste.exe Stack frame:00722C45
+Exact line:Vigilante.Infra.Compilacao.JSONDataAdapter line 2365
+Module : VigilanteTeste.exe Stack frame:00722B16
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 1653
+Module : VigilanteTeste.exe Stack frame:007229F4
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 1670
+Module : VigilanteTeste.exe Stack frame:007226D8
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 68
+Module : VigilanteTeste.exe Stack frame:00722630
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 48
+Module : VigilanteTeste.exe Stack frame:007225D8
+Exact line:Vigilante.Infra.Compilacao.JSONDataAdapter line 38
+Module : VigilanteTeste.exe Stack frame:007353E6
+After line:Teste.Compilacao.Adapter line 78
+Module : VigilanteTeste.exe Stack frame:007356C1
+Exact line:Teste.Compilacao.Adapter line 101
+Module : VigilanteTeste.exe Stack frame:005CE9FC
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB9D6
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FBCAE
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB366
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FAFF1
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:0071914D
+Exact line:TestInsight.DUnitX line 150
+No module found for exception address:007430F6
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL Stack frame:77196359
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL - no MAP information exists
+No module found for exception address:77E07A94
+No module found for exception address:77E07A64
+No module found for exception address:007430DC
+---------------End of Stack trace --------------
+Adding coverage:Vigilante.Infra.Compilacao.JSONDataAdapter.pas (Vigilante.Infra.Compilacao.JSONDataAdapter) 81
+Clearing BreakPoint at 00722744
+De-Activate Vigilante.Infra.Compilacao.JSONDataAdapter.pas line 81 BreakPoint at:00722744
+EXCEPTION CODE:0EEDFADE
+Address:756A33D2
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : VigilanteTeste.exe Stack frame:00722C81
+Exact line:Vigilante.Infra.Compilacao.JSONDataAdapter line 2365
+Module : VigilanteTeste.exe Stack frame:00722BDA
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 1653
+Module : VigilanteTeste.exe Stack frame:00722A60
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 1670
+Module : VigilanteTeste.exe Stack frame:00722740
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 81
+Module : VigilanteTeste.exe Stack frame:00722644
+After line:Vigilante.Infra.Compilacao.JSONDataAdapter line 53
+Module : VigilanteTeste.exe Stack frame:007225D8
+Exact line:Vigilante.Infra.Compilacao.JSONDataAdapter line 38
+Module : VigilanteTeste.exe Stack frame:007353E6
+After line:Teste.Compilacao.Adapter line 78
+Module : VigilanteTeste.exe Stack frame:0073550D
+Exact line:Teste.Compilacao.Adapter line 89
+Module : VigilanteTeste.exe Stack frame:005CE9FC
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB9D6
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FBCAE
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB366
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FB393
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:005FAFF1
+After line:TestInsight.Client line 186
+Module : VigilanteTeste.exe Stack frame:0071914D
+Exact line:TestInsight.DUnitX line 150
+No module found for exception address:007430F6
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL Stack frame:77196359
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL - no MAP information exists
+No module found for exception address:77E07A94
+No module found for exception address:77E07A64
+No module found for exception address:007430DC
+---------------End of Stack trace --------------
+UnLoading DLL:00000001
+UnLoading DLL:00000001
+UnLoading DLL:00000001
+UnLoading DLL:00000001
+UnLoading DLL:00000001
+Thread exit:728
+Thread exit:5668
+Thread exit:3900
+Process 16572 exiting. Exit code :0
+Finished processing debug events
+ProcedureReport
+Generating reports
+Generating coverage report
+Source dir: C:\Users\ftath\source\Delphi\Rio\Vigilante\Build
+Output dir: emma
+Generating xml coverage report
+Generating EMMA file
+Generating EMMA data for module: ModuleInfo[ modulename=Vigilante.Infra.Compilacao.JSONDataAdapter, filename=Vigilante.Infra.Compilacao.JSONDataAdapter.pas ]
+Generating EMMA data for class: TCompilacaoAdapterJSON
+Generating EMMA data for method: GetURL l:3 c:3
+Generating EMMA data for method: GetNome l:3 c:3
+Generating EMMA data for method: GetNumero l:3 c:3
+Generating EMMA data for method: PegarChangeSetItemsJSON l:7 c:6
+Generating EMMA data for method: GetChangesSet l:3 c:3
+Generating EMMA data for method: Create l:4 c:4
+Generating EMMA data for method: GetBuilding l:5 c:5
+Generating EMMA data for method: PegarChangeSet l:7 c:6
+Generating EMMA data for method: CarregarChangeSet l:9 c:9
+Generating EMMA data for method: GetSituacao l:4 c:4
+Generating EMMA data for module: ModuleInfo[ modulename=Vigilante.Infra.ChangeSet.JSONDataAdapter, filename=Vigilante.Infra.ChangeSet.JSONDataAdapter.pas ]
+Generating EMMA data for class: TChangeSetAdapterJSON
+Generating EMMA data for method: CarregarDados l:7 c:7
+Generating EMMA data for method: PegarChangesSet l:3 c:3
+Generating EMMA data for method: Destroy l:5 c:5
+Generating EMMA data for method: Create l:5 c:5
+Generating EMMA data for module: ModuleInfo[ modulename=Vigilante.Infra.ChangeSetItem.JSONDataAdapter, filename=Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas ]
+Generating EMMA data for class: TChangeSetItemAdapterJSON
+Generating EMMA data for method: GetAutor l:3 c:3
+Generating EMMA data for method: CarregarListaArquivos l:5 c:5
+Generating EMMA data for method: CarregarAutor l:4 c:4
+Generating EMMA data for method: Create l:5 c:5
+Generating EMMA data for method: GetDescricao l:3 c:3
+Generating EMMA data for method: CarregarInformacoes l:5 c:5
+Generating EMMA data for method: GetArquivos l:3 c:3
+Generating EMMA data for method: Destroy l:5 c:5
+Generating EMMA data for module: ModuleInfo[ modulename=Vigilante.Build.Adapter.Impl, filename=Vigilante.Build.Adapter.Impl.pas ]
+Generating EMMA data for class: TBuildAdapter
+Generating EMMA data for method: CarregarSituacao l:20 c:10
+Generating EMMA data for method: GetUltimoBuildFalha l:3 c:0
+Generating EMMA data for method: GetUltimoBuildSucesso l:3 c:0
+Generating EMMA data for method: GetBuilding l:3 c:3
+Generating EMMA data for method: CarregarUltimo l:6 c:6
+Generating EMMA data for method: CarregarUltimoBuild l:9 c:9
+Generating EMMA data for method: PegarNumeroDoBuild l:6 c:6
+Generating EMMA data for method: GetNome l:3 c:3
+Generating EMMA data for method: GetURL l:3 c:0
+Generating EMMA data for method: TemValor l:6 c:6
+Generating EMMA data for method: Create l:6 c:6
+Generating EMMA data for method: GetBuildAtual l:3 c:0
+Generating EMMA data for method: CarregarBuildZero l:6 c:6
+Generating EMMA data for method: GetSituacao l:3 c:0
+Emma file generated
+Finished generating reports
+
+Summary:
+
++-----------+-----------+-----------+
+|   Lines   |  Covered  | Covered % |
++-----------+-----------+-----------+
+|       181 |       154 |      85 % |
++-----------+-----------+-----------+

@@ -1,0 +1,61 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Iniciado pelo usuário José da Silva Sauro",
+          "userId": "cristian.pereira",
+          "userName": "José da Silva Sauro"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "build_continuo.fbl7",
+      "fileName": "build_continuo.fbl7",
+      "relativePath": "util/buildscript/build_continuo.fbl7"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "2.0.3-1#87",
+  "duration": 1093647,
+  "estimatedDuration": 3466185,
+  "executor": null,
+  "fullDisplayName": "BUILD ABORTADO 2.0.3-1#87",
+  "id": "87",
+  "keepLog": false,
+  "number": 87,
+  "queueId": 17260,
+  "result": "ABORTED",
+  "timestamp": 1558463259675,
+  "url": "BUILD-ABORTADO.JSON",
+  "builtOn": "COMMONBUILD3_TEMP",
+  "changeSet": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogSet",
+    "items": [
+      {
+        "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogChangeSetEntry",
+        "commitId": null,
+        "affectedPaths": ["/ARQUIVO1.xml", "/ARQUIVO2.xml", "/ARQUIVO3.xml"],
+        "author": {
+          "absoluteUrl": "http://jenkins/user/versao",
+          "fullName": "versao"
+        },
+        "msg": "DESCRIÇÃO DO COMMIT",
+        "timestamp": 1558463337166
+      }
+    ],
+    "kind": "RTC"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/versao",
+      "fullName": "versao"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="Vigilante.Controller.Compilacao" platform="Win32">
+  <interface name="ICompilacaoController" GUID="{B77A1AF0-B51E-4EF0-8978-4C5E1DB7ED3F}" ancestor="IBaseController" file="Vigilante.Controller.Compilacao.pas" line="9">
+    <function name="GetDataSet" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Compilacao.pas" line="11">
+      <parameters>
+        <retval type="TCompilacaoDataSet" />
+      </parameters>
+    </function>
+    <procedure name="AdicionarOuAtualizar" visibility="public" procflags="abstract virtual" file="Vigilante.Controller.Compilacao.pas" line="12">
+      <parameters>
+        <parameter name="ACompilacao" type="ICompilacaoModel" paramflags="const" />
+      </parameters>
+    </procedure>
+    <property name="DataSet" visibility="public" read="GetDataSet" type="TCompilacaoDataSet" file="Vigilante.Controller.Compilacao.pas" line="13" />
+  </interface>
+</namespace>

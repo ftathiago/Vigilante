@@ -1,0 +1,78 @@
+{
+  "_class": "io.jenkins.blueocean.rest.impl.pipeline.PipelineRunImpl",
+  "_links": {
+    "prevRun": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1065/"
+    },
+    "parent": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/"
+    },
+    "tests": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/tests/"
+    },
+    "nodes": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/nodes/"
+    },
+    "log": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/log/"
+    },
+    "self": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/"
+    },
+    "blueTestSummary": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/blueTestSummary/"
+    },
+    "actions": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/actions/"
+    },
+    "steps": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/steps/"
+    },
+    "artifacts": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1066/artifacts/"
+    },
+    "nextRun": {
+      "_class": "io.jenkins.blueocean.rest.hal.Link",
+      "href": "/blue/rest/organizations/jenkins/pipelines/PIPELINE_NOME-SISTEMA_DEV/runs/1067/"
+    }
+  },
+  "actions": [],
+  "artifactsZipFile": "/job/PIPELINE_NOME-SISTEMA_DEV/1066/artifact/*zip*/archive.zip",
+  "causeOfBlockage": null,
+  "causes": [
+    {
+      "_class": "io.jenkins.blueocean.service.embedded.rest.AbstractRunImpl$BlueCauseImpl",
+      "shortDescription": "Iniciado por uma mudança no SCM"
+    }
+  ],
+  "changeSet": [],
+  "description": null,
+  "durationInMillis": 4269873,
+  "enQueueTime": "2019-05-20T21:38:26.931-0300",
+  "endTime": "2019-05-20T22:49:36.813-0300",
+  "estimatedDurationInMillis": 6076720,
+  "id": "1066",
+  "name": null,
+  "organization": "jenkins",
+  "pipeline": "PIPELINE_NOME-SISTEMA_DEV",
+  "replayable": false,
+  "result": "FAILURE",
+  "runSummary": "Quebra desde o último build",
+  "startTime": "2019-05-20T21:38:26.940-0300",
+  "state": "FINISHED",
+  "type": "WorkflowRun",
+  "branch": null,
+  "commitId": null,
+  "commitUrl": null,
+  "pullRequest": null
+}

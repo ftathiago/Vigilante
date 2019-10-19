@@ -1,0 +1,56 @@
+package Vigilante.Module;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon,
+  vcl,
+  ContainerDI,
+  IndySystem,
+  IndyProtocols,
+  IndyCore;
+
+contains
+  DateTimeHelper in 'DateTimeHelper.pas',
+  Vigilante.Module.GerenciadorDeArquivoDataSet in 'Vigilante.Module.GerenciadorDeArquivoDataSet.pas',
+  Vigilante.Module.GerenciadorDeArquivoDataSet.Impl in 'Vigilante.Module.GerenciadorDeArquivoDataSet.Impl.pas',
+  Vigilante.Configuracao in 'Configuracao\Vigilante.Configuracao.pas',
+  Module.DataSet.ConfigMemento in 'ConfigMemento\Module.DataSet.ConfigMemento.pas',
+  Module.DataSet.ConfigMemento.ArmazenarConfiguracao in 'ConfigMemento\Module.DataSet.ConfigMemento.ArmazenarConfiguracao.pas',
+  Module.DataSet.ConfigMemento.Fabrica in 'ConfigMemento\Module.DataSet.ConfigMemento.Fabrica.pas',
+  Module.DataSet.ConfigMemento.Index in 'ConfigMemento\Module.DataSet.ConfigMemento.Index.pas',
+  Module.DataSet.ConfigMemento.Filter in 'ConfigMemento\Module.DataSet.ConfigMemento.Filter.pas',
+  ThreadingEx in 'ThreadingEx.pas';
+
+end.
+

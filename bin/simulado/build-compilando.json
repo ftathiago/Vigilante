@@ -1,0 +1,74 @@
+{
+	"_class": "hudson.model.FreeStyleProject",
+	"displayName": "NOME-DA-VERSAO-COMPILACAO",
+	"displayNameOrNull": null,
+	"name": "NOME-DA-VERSAO-COMPILACAO",
+	"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/",
+	"buildable": true,
+	"builds": [
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 11685,
+			"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11685/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 11684,
+			"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11684/"
+		},
+		{
+			"_class": "hudson.model.FreeStyleBuild",
+			"number": 11683,
+			"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11683/"
+		}
+	],
+	"color": "blue_anime",
+	"firstBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11497,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11497/"
+	},
+	"inQueue": true,
+	"keepDependencies": false,
+	"lastBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11685,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11685/"
+	},
+	"lastCompletedBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11684,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11684/"
+	},
+	"lastFailedBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11643,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11643/"
+	},
+	"lastStableBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11684,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11684/"
+	},
+	"lastSuccessfulBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11684,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11684/"
+	},
+	"lastUnstableBuild": null,
+	"lastUnsuccessfulBuild": {
+		"_class": "hudson.model.FreeStyleBuild",
+		"number": 11643,
+		"url": "http://jenkins/view/modulo/versao/job/NOME-DA-VERSAO-COMPILACAO/11643/"
+	},
+	"nextBuildNumber": 11686,
+	"concurrentBuild": false,
+	"downstreamProjects": [],
+	"scm": {
+		"_class": "com.ibm.team.build.internal.hjplugin.RTCScm",
+		"buildDefinition": "NOME-DA-VERSAO-COMPILACAO",
+		"buildTypeStr": "buildDefinition",
+		"type": "com.ibm.team.build.internal.hjplugin.RTCScm"
+	},
+	"upstreamProjects": []
+}

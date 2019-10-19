@@ -1,0 +1,61 @@
+package Vigilante.Infra;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  Spring.Base,
+  xmlrtl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon,
+  ContainerDI,
+  Vigilante.Module,
+  Vigilante.Aplicacao;
+
+contains
+  Vigilante.Conexao.JSON.Arquivo.Impl in 'Conexao\Vigilante.Conexao.JSON.Arquivo.Impl.pas',
+  Vigilante.Conexao.JSON.Impl in 'Conexao\Vigilante.Conexao.JSON.Impl.pas',
+  Vigilante.Conexao.JSON in 'Conexao\Vigilante.Conexao.JSON.pas',
+  Vigilante.Infra.Build.Repositorio.Impl in 'Build\Repositorio\Vigilante.Infra.Build.Repositorio.Impl.pas',
+  Vigilante.Infra.Compilacao.Repositorio.Impl in 'Compilacao\Repositorio\Vigilante.Infra.Compilacao.Repositorio.Impl.pas',
+  Vigilante.Infra.Build.Builder.Impl in 'Build\Builder\Vigilante.Infra.Build.Builder.Impl.pas',
+  Vigilante.Infra.Build.Builder in 'Build\Builder\Vigilante.Infra.Build.Builder.pas',
+  Vigilante.Infra.Build.JSONDataAdapter.Impl in 'Build\DataAdapter\Vigilante.Infra.Build.JSONDataAdapter.Impl.pas',
+  Vigilante.Infra.Build.JSONDataAdapter in 'Build\DataAdapter\Vigilante.Infra.Build.JSONDataAdapter.pas',
+  Vigilante.Infra.ChangeSet.JSONDataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.ChangeSet.JSONDataAdapter.pas',
+  Vigilante.Infra.ChangeSet.DataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.ChangeSet.DataAdapter.pas',
+  Vigilante.Infra.ChangeSetItem.JSONDataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.ChangeSetItem.JSONDataAdapter.pas',
+  Vigilante.Infra.ChangeSetItem.DataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.ChangeSetItem.DataAdapter.pas',
+  Vigilante.Infra.Compilacao.JSONDataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.Compilacao.JSONDataAdapter.pas',
+  Vigilante.Infra.Compilacao.DataAdapter in 'Compilacao\DataAdapter\Vigilante.Infra.Compilacao.DataAdapter.pas',
+  Vigilante.Infra.Compilacao.Builder.Impl in 'Compilacao\Builder\Vigilante.Infra.Compilacao.Builder.Impl.pas',
+  Vigilante.Infra.Compilacao.Builder in 'Compilacao\Builder\Vigilante.Infra.Compilacao.Builder.pas';
+
+end.

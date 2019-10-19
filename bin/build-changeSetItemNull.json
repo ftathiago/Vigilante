@@ -1,0 +1,29 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "building": null,
+  "description": null,
+  "displayName": "#725",
+  "duration": 1481632,
+  "estimatedDuration": 1638508,
+  "executor": null,
+  "fullDisplayName": "build-simulado #725",
+  "id": "725",
+  "keepLog": false,
+  "number": 725,
+  "queueId": 3813,
+  "result": null,
+  "timestamp": 1548437080722,
+  "url": "http://jenkins/view/equipe/versao/job/build-simulado/725/",
+  "builtOn": "COMMONBUILD_SLOT6",
+  "changeSet": {
+    "_class": "com.ibm.team.build.internal.hjplugin.RTCChangeLogSet",
+    "items": null,
+    "kind": "RTC"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://jenkins/user/jose.sauro",
+      "fullName": "Jose da Silva Sauro"
+    }
+  ]
+}
